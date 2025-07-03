@@ -6,17 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>test file</title>
-    <link>https://quartz.jzhao.xyz/test-file</link>
-    <guid>https://quartz.jzhao.xyz/test-file</guid>
-    <description>This is an example of a test file that I am creating. The content of this file wasn’t provided by quartz by default.</description>
-    <pubDate>Thu, 03 Jul 2025 10:39:01 GMT</pubDate>
-  </item><item>
     <title>Welcome to Quartz</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description>This is a blank Quartz installation. See the documentation for how to get started.</description>
-    <pubDate>Thu, 03 Jul 2025 09:15:25 GMT</pubDate>
+    <pubDate>Thu, 03 Jul 2025 15:51:26 GMT</pubDate>
+  </item><item>
+    <title>test file</title>
+    <link>https://quartz.jzhao.xyz/test-file</link>
+    <guid>https://quartz.jzhao.xyz/test-file</guid>
+    <description>This is an example of a test file that I am creating. The content of this file wasn’t provided by quartz by default.</description>
+    <pubDate>Thu, 03 Jul 2025 15:51:26 GMT</pubDate>
   </item>
     </channel>
   </rss>
