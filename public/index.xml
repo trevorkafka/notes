@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Quartz 4</title>
-      <link>https://quartz.jzhao.xyz</link>
-      <description>Last 10 notes on Quartz 4</description>
+      <title>Trevor&#039;s Notes</title>
+      <link>https://www.trevorkafka.com</link>
+      <description>Last 10 notes on Trevor&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Welcome to Quartz</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description>This is a blank Quartz installation. See the documentation for how to get started.</description>
-    <pubDate>Thu, 03 Jul 2025 15:51:26 GMT</pubDate>
-  </item><item>
     <title>test file</title>
-    <link>https://quartz.jzhao.xyz/test-file</link>
-    <guid>https://quartz.jzhao.xyz/test-file</guid>
+    <link>https://www.trevorkafka.com/test-file</link>
+    <guid>https://www.trevorkafka.com/test-file</guid>
     <description>This is an example of a test file that I am creating. The content of this file wasn’t provided by quartz by default.</description>
+    <pubDate>Thu, 03 Jul 2025 16:17:02 GMT</pubDate>
+  </item><item>
+    <title>Welcome to Trevor&#039;s Notes</title>
+    <link>https://www.trevorkafka.com/</link>
+    <guid>https://www.trevorkafka.com/</guid>
+    <description>This is a portion of my website where I will post detailed information about topics that I teach during tutoring sessions to help current, future, and past students.</description>
     <pubDate>Thu, 03 Jul 2025 15:51:26 GMT</pubDate>
   </item>
     </channel>
