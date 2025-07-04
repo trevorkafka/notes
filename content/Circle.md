@@ -33,7 +33,7 @@ The **area** of a circle with radius $r$ is given by the following formula.
 The equation of a circle of radius $r$ and center $(h,k)$ in the $xy$-plane is given as follows.
 
 >[!note] Equation of a circle
->$$(x-h)^2 + (y-h)^2 = r^2$$
+>$$(x-h)^2 + (y-k)^2 = r^2$$
 >
 >Try graphing this yourself on [Desmos](https://www.desmos.com/calculator).
 
