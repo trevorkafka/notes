@@ -1,10 +1,14 @@
 ---
 title: Welcome to Trevor's Notes
 ---
+# What is *Trevor's Notes*?
 
-This is a portion of my website where I will post detailed information about topics that I teach during tutoring sessions to help current, future, and past students. Over time, this will turn into a large collection of useful help pages.
+This is a portion of my website where I will post detailed information about topics that I teach during tutoring sessions to help current, future, and past students. 
+
+Over time, this will turn into a large collection of useful help pages. Click a link in the explorer to the left to begin.
 
 > [!note] Looking for notes and class materials from our tutoring sessions?
 > Info will be posted here soon about how to find the link to your Google Drive folder with our class notes.
 
-Here is a link to a [[test file]].
+>[!important] Feedback
+>Notice any problems, have suggestions for improvement, or want to suggest a new article for me to write? Send me an email at any time at tutor@trevorkafka.com.

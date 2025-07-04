@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Trevor's Notes",
-    pageTitleSuffix: "",
+    pageTitleSuffix: " | Trevor's Notes",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -36,7 +36,7 @@ const config: QuartzConfig = {
           dark: "#3C303E",
           secondary: "#D46A53",
           tertiary: "#FB7F64",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          highlight: "#00000010",
           textHighlight: "#fff23688",
         },
         darkMode: {
