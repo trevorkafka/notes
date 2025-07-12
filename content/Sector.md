@@ -6,7 +6,7 @@ tags:
   - course/algebra1
 ---
 
-A **sector** is a pie-shaped segment of a circle formed by connecting a circle's center with line segments to two points on the circle itself, as shown in the diagram below.
+A **sector** is a pie-shaped segment of a [[Circle|circle]] formed by connecting a circle's center with line segments to two points on the circle itself, as shown in the diagram below.
 
 ![[Drawboard-PDF-Annotation-Copy.png]]
 
@@ -16,7 +16,7 @@ Here,
 - $s$ is the arclength of the sector
 - $A$ is the area of the sector
 
->[!important] Arclength and sector area formulas
+>[!note] Arclength and sector area formulas
 > The arclength $s$ and sector area $A$ are each related to $r$ and $\theta$  through the formulas in the table below. The choice of formula to use depends on if you are measuring $\theta$ in degrees or radians.
 >
 >| $\theta$ is measured in... | Arclength formula                          | Sector area formula                          |

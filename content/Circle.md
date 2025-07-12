@@ -7,6 +7,8 @@ tags:
 
 A **circle** is a set of points in a plane that are at a fixed distance away from a chosen point, called the center of the circle. The fixed distance between the points of the circle and the center of the circle is called the radius $r$. The diameter $d$ is twice the magnitude of the radius $d = 2r$ and represents the distance between opposing sides of the circle.
 
+A pie-shaped portion of circle is called a [[Sector|sector]].
+
 # $\pi$ (pi)
 
 The number $3.14159265358979323846364\ldots$ is a very important irrational number in mathematics that appears in formulas for the circumference and area of a circle. Like all irrational numbers, we cannot express this number in a compact decimal or fractional form. So, typically the [[Greek letters|Greek letter]] **$\pi$ (pi)** is used for simplicity in formulas. 
@@ -14,7 +16,7 @@ The number $3.14159265358979323846364\ldots$ is a very important irrational numb
 $\pi$ is a built-in number available in all scientific and graphing calculators. For most general purposes, the approximation $\pi \approx 3.14$ suffices.
 
 >[!note] The irrational number $\pi$ (pi)
->$$\pi = 3.14159265358979323846364\ldots \approx 3.14$$
+>$$\pi = 3.14159265358979323846264\ldots \approx 3.14$$
 
 $\pi$ also appears frequently when using radians to measure angles and in calculus courses.
 # Circumference (Perimeter) and Area

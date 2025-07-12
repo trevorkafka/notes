@@ -1,4 +1,4 @@
-Conic sections are classes of curved shapes that may be formed by slicing a cone, which are
+**Conic sections** are classes of curved shapes that may be formed by slicing a cone, which are
 1. [[Circle|circles]],
 2. ellipses,
 3. parabolas, and
