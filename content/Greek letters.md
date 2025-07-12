@@ -3,6 +3,7 @@ tags:
   - course/math-all
   - course/physics-all
   - notation
+  - reference-sheets
 ---
 
 
@@ -19,10 +20,10 @@ Below is a reference table of some of the most common letters in the Greek alpha
 |            | $\theta$                    | theta   | angle measures                                                                                    |                                                                            |
 |            | $\lambda$                   | lambda  |                                                                                                   | wavelength, linear density                                                 |
 |            | $\mu$                       | mu      |                                                                                                   | micro (SI prefix for $10^{-6}$), coefficient of friction                   |
-| $\Pi$      | $\pi$                       | pi      | the ratio of a [[Circle\|circle's]] circumference to its diameter $\pi \approx 3.14$ (lower case) | a product of a sequence (upper case)                                       |
+| $\Pi$      | $\pi$                       | pi      | the ratio of a [[Circles\|circle's]] circumference to its diameter $\pi \approx 3.14$ (lower case) | a product of a sequence (upper case)                                       |
 |            | $\rho$                      | rho     |                                                                                                   | volume density, electrical resistivity                                     |
 | $\Sigma$   | $\sigma$                    | sigma   | a summation (upper case)                                                                          | area density (lower case)                                                  |
-|            | $\tau$                      | tau     | the ratio of a [[Circle\|circle's]] circumference to its radius $\tau = 2\pi \approx 6.18$        | torque                                                                     |
+|            | $\tau$                      | tau     | the ratio of a [[Circles\|circle's]] circumference to its radius $\tau = 2\pi \approx 6.18$        | torque                                                                     |
 |            | $\phi$ or $\varphi$         | phi     | angle measures                                                                                    |                                                                            |
 | $\Psi$     | $\psi$                      | psi     |                                                                                                   | quantum state, quantum wavefunction                                        |
 |            | $\omega$                    | omega   |                                                                                                   | angular frequency, angular velocity/speed                                  |

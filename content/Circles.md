@@ -8,7 +8,7 @@ tags:
 
 A **circle** is a set of points in a plane that are at a fixed distance away from a chosen point, called the center of the circle. The fixed distance between the points of the circle and the center of the circle is called the radius $r$. The diameter $d$ is twice the magnitude of the radius $d = 2r$ and represents the distance between opposing sides of the circle.
 
-A pie-shaped portion of circle is called a [[Sector|sector]].
+A pie-shaped portion of circle is called a [[Sectors|sector]].
 
 # $\pi$ (pi)
 

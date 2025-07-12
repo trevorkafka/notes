@@ -1,5 +1,5 @@
 **Conic sections** are classes of curved shapes that may be formed by slicing a cone, which are
-1. [[Circle|circles]],
+1. [[Circles|circles]],
 2. ellipses,
 3. parabolas, and
 4. hyperbolas,

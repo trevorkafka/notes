@@ -6,7 +6,7 @@ tags:
   - course/algebra1
 ---
 
-A **sector** is a pie-shaped segment of a [[Circle|circle]] formed by connecting a circle's center with line segments to two points on the circle itself, as shown in the diagram below.
+A **sector** is a pie-shaped segment of a [[Circles|circle]] formed by connecting a circle's center with line segments to two points on the circle itself, as shown in the diagram below.
 
 ![[quartz/content/attachments/Drawboard-PDF-Annotation-Copy.png]]
 
@@ -23,6 +23,8 @@ Here,
 >| ------------------------------- | ------------------------------------------ | -------------------------------------------- |
 >| degrees                         | $s = \frac{\pi}{180^\circ} \cdot \theta r$ | $A = \frac{\pi}{360^\circ} \cdot \theta r^2$ |
 >| radians                         | $s = \theta r$                             | $A = \frac{1}{2} \theta r^2$                 |
+>
+>The formulas in radians are worth memorizing.
 
 >[!question] Why do we like radians so much in mathematics?
 >The relative simplicity of the formulas shown above when $\theta$ is measured in radians is one of the primary reasons why radians is so heavily used in mathematics in the precalculus level and beyond. The choice of using radians yields significant simpler formulas in the field of calculus when dealing with trigonometric functions.

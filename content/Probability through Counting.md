@@ -1,3 +1,11 @@
+---
+tags:
+  - probability
+  - problem-solving
+  - course/math-all
+---
+
+
 **Lots of problems in probability are really problems in creative counting.** This is best seen through examples, so this page contains a variety of examples for you to browse. 
 
 I suggest looking through some solutions on your own to get a sense of how to solve these sorts of problems, but also saving some of these for you to attempt independently.
