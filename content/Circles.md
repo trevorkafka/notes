@@ -16,29 +16,38 @@ The number $3.14159265358979323846364\ldots$ is a very important irrational numb
 
 $\pi$ is a built-in number available in all scientific and graphing calculators. For most general purposes, the approximation $\pi \approx 3.14$ suffices.
 
->[!note] The irrational number $\pi$ (pi)
+>[!important] The irrational number $\pi$ (pi)
 >$$\pi = 3.14159265358979323846264\ldots \approx 3.14$$
 
 $\pi$ also appears frequently when using radians to measure angles and in calculus courses.
 # Circumference (Perimeter) and Area
 The perimeter of a circle is referred to as its **circumference**. The circumference $C$ of a circle with radius $r$ is given by the following formula.
 
->[!note] Formula for the circumference of a circle
->$$C = 2 \pi r$$
+>[!important] Formula for the circumference of a circle
+>
+>$$
+>C = 2 \pi r
+>$$
 
 In terms of the diameter $d$, one can also write $C = \pi d$.
 
 The **area** of a circle with radius $r$ is given by the following formula.
 
->[!note] Formula for the area of a circle
->$$A = \pi r^2$$
+>[!important] Formula for the area of a circle
+>
+>$$
+>A = \pi r^2
+>$$
 # Equation in the $xy$-plane
 The equation of a circle of radius $r$ and center $(h,k)$ in the $xy$-plane is given as follows.
 
->[!note] Equation of a circle
->$$(x-h)^2 + (y-k)^2 = r^2$$
+>[!important] Equation of a circle
 >
->Try graphing this yourself on [Desmos](https://www.desmos.com/calculator).
+>$$
+>(x-h)^2 + (y-k)^2 = r^2
+>$$
+>
+>Try graphing this yourself on [Desmos](https://www.desmos.com/calculator), creating sliders for the variables $h$, $k$, and $r$ and play around by adjusting the values of the variables.
 
 A sketch of the resulting circular graph is provided below.
 
