@@ -3,7 +3,7 @@ title: Welcome to Trevor's Notes
 ---
 # What is *Trevor's Notes*?
 
-This is a portion of my website where I will post detailed information about topics that I teach during tutoring sessions to help current, future, and past students. 
+This is a project that began in **July 2025** and is a portion of my website where I will post detailed information about topics that I teach during tutoring sessions to help current, future, and past students. 
 
 At the moment, this project is **tiny**, but over time it will turn into a large collection of useful help pages. Click a link in the explorer to the left to browse articles. You can also view all pages on this site sorted by [tag](tags).
 
