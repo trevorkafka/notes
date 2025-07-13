@@ -1,8 +1,8 @@
 ---
 tags:
-  - course/physics-all
-  - course/math-all
   - circles
+  - physics-all
+  - math-all
 ---
 
 

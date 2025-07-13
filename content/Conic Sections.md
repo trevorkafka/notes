@@ -1,3 +1,10 @@
+---
+tags:
+  - algebra-2
+  - precalc
+---
+
+
 >[!warning] This page is under construction and is far from complete.
 
 **Conic sections** are classes of curved shapes that may be formed by slicing a cone, which are

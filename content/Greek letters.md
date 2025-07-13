@@ -1,9 +1,9 @@
 ---
 tags:
-  - course/math-all
-  - course/physics-all
   - notation
   - reference-sheets
+  - math-all
+  - physics-all
 ---
 
 

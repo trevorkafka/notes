@@ -1,3 +1,8 @@
+---
+tags:
+  - probability
+---
+
 # Permutations
 A **permutation** is an *ordered arrangement of distinct items*. For example, permutations of all four of the letters `ABCD` include `DBAC`, `CDAB`, `ABCD`, and more. We can also create permutations of only three of the letters, such as `ABC`, `DAB`, `BAD`, or `CAD`. 
 

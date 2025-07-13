@@ -2,7 +2,7 @@
 tags:
   - probability
   - problem-solving
-  - course/math-all
+  - math-all
 ---
 
 
