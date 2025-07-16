@@ -17,6 +17,6 @@ aliases:
 
 as shown in the figure below.
 
-![[Pasted image 20250704120426.png]]
+<span class="invert">![[Pasted image 20250704120426.png]]</span>
 
 [image source](https://commons.wikimedia.org/wiki/File:Conic_Sections.svg)

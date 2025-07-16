@@ -10,7 +10,7 @@ aliases:
 
 A **sector** is a pie-shaped segment of a [[Circles|circle]] formed by connecting a circle's center with line segments to two points on the circle itself, as shown in the diagram below.
 
-![[Drawboard-PDF-Annotation-Copy.png]]
+![[Drawboard-PDF-Annotation-Copy 4.png]]
 
 Here,
 - $r$ is the radius of the circle,
