@@ -106,6 +106,9 @@ There are often many ways to solve these sorts of problems. By no means do you h
 > Three balls are randomly drawn without replacement from a bag containing 4 red balls, 3 blue balls, and 2 green balls. What is the probability that the sample contains **balls of exactly two different colors**?
 
 >[!check]- Solution
+>
+>>[!caution] (Wednesday July 16, 2025) This solution is currently under construction and the final answer may not be accurate.
+>
 >Let's begin by determining the number of ways to pull balls from the bag. There are nine balls in total and each [[Combinations and Permutations|combination]] of three balls removed from the bag occurs with equal probability. The number of ways to do this is "9 choose 3," which can be computed via the formula for combinations as follows. 
 >$$
 >\binom 9 3 = {}_9C_3 = \frac{9!}{(9-3)! \cdot 3!} = 84

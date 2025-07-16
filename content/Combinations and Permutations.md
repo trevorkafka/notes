@@ -17,6 +17,13 @@ The number of ways to **permute** $n$ out of $m$ total items is written as ${}_m
 >[!note] Computing permutations with Desmos
 >In the [Desmos Scientific Calculator](http://www.desmos.com/scientific) and the [Desmos Graphing Calculator](http://www.desmos.com/calculator), permutations are computed via the $\text{nPr}$ function, which takes two inputs. For example, to compute ${}_7P_3$, type `nPr(7,3)`. The calculator will then display $\text{nPr}(7,3)=210$.
 
+>[!note] Computing permutations with the TI83/TI84
+>1. In the main calculator input window, input your $n$ value.
+>2. Click the `MATH` button and use the `→` key to switch to the `PROB` (probability) menu. Then, select `nPr`.
+>3. Type your $r$ value on the screen. 
+>	- For example, if you are looking to compute ${}_8P_5$, you should now see `8  nPr  5` on your calculator screen. 
+>4. Press `ENTER` to evaluate.
+
 Other miscellaneous notes:
 - $r$ must be less than or equal to $n$
 - $_nP_0 = 1$
@@ -36,8 +43,8 @@ The number of ways to **combine** $n$ out of $m$ total items is written as ${}_m
 
 Note that by this formula we can establish the identity ${}_mP_n = n! \cdot {}_mC_n,$ which also implies that ${}_mP_n \geq {}_mC_n,$ meaning that *the number of combinations cannot exceed the number of permutations.*
 
->[!note] Computing combinations with Desmos
->In the [Desmos Scientific Calculator](http://www.desmos.com/scientific) and the [Desmos Graphing Calculator](http://www.desmos.com/calculator), permutations are computed via the $\text{nPr}$ function, which takes two inputs. For example, to compute ${}_7P_3$, type `nPr(7,3)`. The calculator will then display $\text{nPr}(7,3)=35.$
+>[!note] Computing combinations with Desmos and the TI83/TI84
+>Follow the same instructions as for permutations described above, but instead use the $\text{nCr}$ function.
 
 Other miscellaneous notes:
 - $r$ must be less than or equal to $n$
