@@ -3,6 +3,8 @@ tags:
   - probability
   - problem-solving
   - math-all
+aliases:
+  - "117672"
 ---
 
 

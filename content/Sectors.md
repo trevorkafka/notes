@@ -4,6 +4,8 @@ tags:
   - radians
   - geometry
   - algebra-1
+aliases:
+  - "837484"
 ---
 
 A **sector** is a pie-shaped segment of a [[Circles|circle]] formed by connecting a circle's center with line segments to two points on the circle itself, as shown in the diagram below.

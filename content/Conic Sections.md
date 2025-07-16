@@ -2,6 +2,8 @@
 tags:
   - algebra-2
   - precalc
+aliases:
+  - "026905"
 ---
 
 

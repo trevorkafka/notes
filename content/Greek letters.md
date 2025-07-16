@@ -4,6 +4,8 @@ tags:
   - reference-sheets
   - math-all
   - physics-all
+aliases:
+  - "809402"
 ---
 
 

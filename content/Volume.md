@@ -1,6 +1,8 @@
 ---
 tags:
   - geometry
+aliases:
+  - "853380"
 ---
 # Prisms
 The volume of a **prism** can be found by multiplying the base area of the prism $A$ by the height of the prism $h$. The prism itself may be slanted without any change to the volume formula, but the measurement of $h$ must be done perpendicular to the base. A **cylinder** is just a special type of prism with a circle as the base (in this case $A = \pi r^2$). A slanted **rectangular prism** is called a **parallelepiped**.
