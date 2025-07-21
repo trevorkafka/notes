@@ -4,10 +4,12 @@ tags:
 aliases:
   - "625269"
 ---
+>[!caution] Caution
+>This article defines permutations and combinations in terms of [[Factorials|factorials]]. When solving problems, sometimes $0!$ (zero factorial) makes an appearance. Please keep in mind that $0! = 1$, **not zero**.
 # Permutations
 A **permutation** is an *ordered arrangement of distinct items*. For example, permutations of all four of the letters `ABCD` include `DBAC`, `CDAB`, `ABCD`, and more. We can also create permutations of only three of the letters, such as `ABC`, `DAB`, `BAD`, or `CAD`. 
 
-The number of ways to **permute** $n$ out of $m$ total items is written as ${}_mP_n$ and can be computed using either an explicit formula or built-in calculator functionality.
+The number of ways to **permute** $n$ out of $m$ total items is written as ${}_mP_n$ and can be computed using either an explicit formula involving [[Factorials|factorials]] or built-in calculator functionality.
 
 >[!important] Explicit formula for permutations
 >$$
@@ -20,8 +22,7 @@ The number of ways to **permute** $n$ out of $m$ total items is written as ${}_m
 >[!note] Computing permutations with the TI83/TI84
 >1. In the main calculator input window, input your $n$ value.
 >2. Click the `MATH` button and use the `→` key to switch to the `PROB` (probability) menu. Then, select `nPr`.
->3. Type your $r$ value on the screen. 
->	- For example, if you are looking to compute ${}_8P_5$, you should now see `8  nPr  5` on your calculator screen. 
+>3. Type your $r$ value on the screen. For example, if you are looking to compute ${}_8P_5$, you should now see `8  nPr  5` on your calculator screen. 
 >4. Press `ENTER` to evaluate.
 
 Other miscellaneous notes:
@@ -33,9 +34,9 @@ Other miscellaneous notes:
 # Combinations
 A **combination** is an ***un**ordered arrangement of distinct items*. For example, going back to our set of four of the letters `ABCD` the three-letter combinations `BAD` and `DAB` would be considered to be the *same* combination since they contain exactly the same letters.
 
-The number of ways to **combine** $n$ out of $m$ total items is written as ${}_mC_n$ or as $\binom m n$ and can be computed using either an explicit formula or built-in calculator functionality. In contexts where the notation $\binom m n$ is used, the term **binomial coefficient** is also used, which stems from its relationship with the binomial theorem.
+The number of ways to **combine** $n$ out of $m$ total items is written as ${}_mC_n$ or as $\binom m n$ and can be computed using either an explicit formula using [[Factorials|factorials]] or built-in calculator functionality. In contexts where the notation $\binom m n$ is used, the term **binomial coefficient** is also used, which stems from its relationship with the binomial theorem.
 
->[!important] Explicit formula for combinations
+>[!important] Explicit formula for combinations (a.k.a. - binomial coefficient)
 >
 >$$
 >\binom m n = {}_mC_{n} = \frac{m!}{(m-n)! n!}
@@ -52,7 +53,8 @@ Other miscellaneous notes:
 - $_nC_1 = n$ and $_nC_{n-1} = n$
 - $_nC_0 + {}_nC_1 + {}_nC_2 + \cdots + {}_nC_n = 2^n$
 
-There is a relationship between the combination numbers and the entries of Pascal's triangle, as shown below.
+## Combinations and Pascal's Triangle
+There is a relationship between the combination numbers and the entries of Pascal's triangle, as shown below. Corresponding entries in each triangle are equal in value to each other.
 
 $$
 \begin{array}{ c c c }

@@ -6,16 +6,40 @@
       <description>Last 10 notes on Trevor&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Factorials</title>
+    <link>https://www.trevorkafka.com/Factorials</link>
+    <guid>https://www.trevorkafka.com/Factorials</guid>
+    <description>Definition for Factorials of Natural Numbers A factorial of some natural number n, written as n! and read as ”n factorial,” is the product of all natural numbers less than or equal to n.</description>
+    <pubDate>Mon, 21 Jul 2025 15:22:42 GMT</pubDate>
+  </item><item>
+    <title>Conic Sections</title>
+    <link>https://www.trevorkafka.com/Conic-Sections</link>
+    <guid>https://www.trevorkafka.com/Conic-Sections</guid>
+    <description> This page is under construction and is far from complete.</description>
+    <pubDate>Wed, 16 Jul 2025 16:59:03 GMT</pubDate>
+  </item><item>
     <title>Welcome to Trevor&#039;s Notes</title>
     <link>https://www.trevorkafka.com/</link>
     <guid>https://www.trevorkafka.com/</guid>
     <description>What is Trevor’s Notes? My name is Trevor Kafka, I am a math and physics tutor, and Trevor’s Notes is a project that began in July 2025.</description>
-    <pubDate>Wed, 16 Jul 2025 09:14:45 GMT</pubDate>
+    <pubDate>Wed, 16 Jul 2025 16:59:03 GMT</pubDate>
+  </item><item>
+    <title>Sectors</title>
+    <link>https://www.trevorkafka.com/Sectors</link>
+    <guid>https://www.trevorkafka.com/Sectors</guid>
+    <description>A sector is a pie-shaped segment of a circle formed by connecting a circle’s center with line segments to two points on the circle itself, as shown in the diagram below.</description>
+    <pubDate>Wed, 16 Jul 2025 16:59:03 GMT</pubDate>
+  </item><item>
+    <title>Vectors</title>
+    <link>https://www.trevorkafka.com/Problems--and--Solutions/Vectors</link>
+    <guid>https://www.trevorkafka.com/Problems--and--Solutions/Vectors</guid>
+    <description>Problems titled “Giancoli” are sourced from Physics: Principles with Applications by Giancoli.</description>
+    <pubDate>Wed, 16 Jul 2025 16:59:03 GMT</pubDate>
   </item><item>
     <title>Combinations and Permutations</title>
     <link>https://www.trevorkafka.com/Combinations-and-Permutations</link>
     <guid>https://www.trevorkafka.com/Combinations-and-Permutations</guid>
-    <description>Permutations A permutation is an ordered arrangement of distinct items.</description>
+    <description> Caution This article defines permutations and combinations in terms of factorials.</description>
     <pubDate>Wed, 16 Jul 2025 08:58:59 GMT</pubDate>
   </item><item>
     <title>Probability through Counting</title>
@@ -24,34 +48,16 @@
     <description>Lots of problems in probability are really problems in creative counting.</description>
     <pubDate>Wed, 16 Jul 2025 08:58:59 GMT</pubDate>
   </item><item>
-    <title>Vectors</title>
-    <link>https://www.trevorkafka.com/Problems--and--Solutions/Vectors</link>
-    <guid>https://www.trevorkafka.com/Problems--and--Solutions/Vectors</guid>
-    <description>Problems titled “Giancoli” are sourced from Physics: Principles with Applications by Giancoli.</description>
-    <pubDate>Wed, 16 Jul 2025 08:58:59 GMT</pubDate>
-  </item><item>
     <title>Circles</title>
     <link>https://www.trevorkafka.com/Circles</link>
     <guid>https://www.trevorkafka.com/Circles</guid>
     <description>A circle is a set of points in a plane that are at a fixed distance away from a chosen point, called the center of the circle.</description>
     <pubDate>Wed, 16 Jul 2025 03:33:04 GMT</pubDate>
   </item><item>
-    <title>Conic Sections</title>
-    <link>https://www.trevorkafka.com/Conic-Sections</link>
-    <guid>https://www.trevorkafka.com/Conic-Sections</guid>
-    <description> This page is under construction and is far from complete.</description>
-    <pubDate>Wed, 16 Jul 2025 03:33:04 GMT</pubDate>
-  </item><item>
     <title>Greek letters</title>
     <link>https://www.trevorkafka.com/Greek-letters</link>
     <guid>https://www.trevorkafka.com/Greek-letters</guid>
     <description>Letters in the Greek alphabet are used sometimes in mathematics and physics in addition to the familiar Latin alphabet (Aa, Bb, Cc, etc.) to provide additional symbols to help make it easier to distinguish different concepts.</description>
-    <pubDate>Wed, 16 Jul 2025 03:33:04 GMT</pubDate>
-  </item><item>
-    <title>Sectors</title>
-    <link>https://www.trevorkafka.com/Sectors</link>
-    <guid>https://www.trevorkafka.com/Sectors</guid>
-    <description>A sector is a pie-shaped segment of a circle formed by connecting a circle’s center with line segments to two points on the circle itself, as shown in the diagram below.</description>
     <pubDate>Wed, 16 Jul 2025 03:33:04 GMT</pubDate>
   </item><item>
     <title>Volume</title>

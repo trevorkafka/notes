@@ -107,8 +107,6 @@ There are often many ways to solve these sorts of problems. By no means do you h
 
 >[!check]- Solution
 >
->>[!caution] (Wednesday July 16, 2025) This solution is currently under construction and the final answer may not be accurate.
->
 >Let's begin by determining the number of ways to pull balls from the bag. There are nine balls in total and each [[Combinations and Permutations|combination]] of three balls removed from the bag occurs with equal probability. The number of ways to do this is "9 choose 3," which can be computed via the formula for combinations as follows. 
 >$$
 >\binom 9 3 = {}_9C_3 = \frac{9!}{(9-3)! \cdot 3!} = 84
@@ -119,15 +117,24 @@ There are often many ways to solve these sorts of problems. By no means do you h
 >- Case 2: the two matching balls in the chosen set of three balls are blue
 >- Case 3: the two matching balls in the chosen set of three balls are green
 >
->Let's focus on the Case 1. If two red balls are chosen from the bag, then seven balls remain, of which five are not red. This means that there are $5$ different balls that can be chosen to be the third ball in the set. 
->
->Moving on to the Case 2, if two blue balls are chosen from the bag, then seven balls remain, of which six are not blue. This means that there are $6$ different balls that can be chosen to be the third ball in the set.
->
->Finally in Case 3, if two green balls are chosen from the bag, then seven balls remain, of which *all* are not green. This means that there are $7$ different balls that can be chosen to be the third ball in the set.
->
->The total number of ways, then, to choose the balls such that exactly two of the balls match is hence $5 + 6 + 7 = 18.$ From this, the probability can then be computed.
+>Let's focus on the Case 1. The bag has four red balls and five non-red balls. We must count the number of combinations of three balls that fall under case 1. First, let's count the number of ways to pull out two red balls from our available four. This value is "4 choose 2," whose value is $\binom 4 2 = {}_4 C_2 = 6$ (details of computation are shown below). Then, let's count the number of ways to pull out one non-red ball from five non-red balls. This value is "5 choose 1," whose value is just $\binom 5 1 = {}_5 C_1 = 5$. Multiplying these two values together provides the number of combinations that fall under case 1.
 >$$
->P = \frac{18}{84} = \boxed{\frac{3}{14} \approx 21.43\%}
+>\binom 4 2 \binom 5 1 = {}_4 C_2 \cdot {}_5 C_1 = \frac{4!}{(4-2)! \cdot 2!} \cdot \frac{5!}{(5-1)! \cdot 1!} = 6 \cdot 5 = 30
+>$$
+>
+>Moving on to the Case 2, the bag has three blue balls and six non-blue balls. Let's compute the number of combinations using the same strategy as case 1.
+>$$
+>\binom 3 2 \binom 6 1 = {}_3 C_2 \cdot {}_6 C_1 = \frac{3!}{(3-2)! \cdot 2!} \cdot \frac{6!}{(6-1)! \cdot 1!} = 3 \cdot 6 = 18
+>$$
+>
+>Finally in Case 3, the bag has two green balls and seven non-green balls. Let's also compute the number of combinations using the same strategy as case 1.
+>$$
+>\binom 2 2 \binom 7 1 = {}_2 C_2 \cdot {}_7 C_1 = \frac{2!}{(2-2)! \cdot 2!} \cdot \frac{7!}{(7-1)! \cdot 1!} = 1 \cdot 7 = 7
+>$$
+>
+>The total number of ways, then, to choose the balls such that exactly two of the balls match is hence $30 + 18 + 7 = 55.$ From this, the probability can then be computed.
+>$$
+>P = \boxed{\frac{55}{84} \approx 65.47\%}
 >$$
 
 >[!question]  Problem 6
