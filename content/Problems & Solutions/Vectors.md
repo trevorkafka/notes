@@ -31,7 +31,7 @@ Problems titled "Giancoli" are sourced from *Physics: Principles with Applicatio
 > $$
 > = \langle 24.03108215\ldots, 11.62624444\ldots \rangle \approx \boxed{\langle 24.0,11.6\rangle\ \text{(a)}}
 > $$
-> The magnitude and angle $\theta$ of the resultant vector can then be found  using the Pythagorean theorem and tangent function, respectively.
+> This vector lies in quadrant I. The magnitude and angle $\theta$ of the resultant vector can then be found  using the Pythagorean theorem and tangent function, respectively.
 > $$
 > |\vec{\mathbf A} + \vec{\mathbf B} + \vec{\mathbf C}| = \sqrt{24.03108215\ldots^2 + 11.62624444\ldots^2} = 26.69573878\ldots \approx \boxed{26.7\ \text{(b)}}
 > $$

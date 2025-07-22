@@ -25,6 +25,23 @@ $$
 1! &= 1
 \end{align*}
 $$
+## Permutations of a Set of Elements
+One of the most fundamental motivations for defining the factorial $n!$ of a natural number $n$ is to represent the number of permutations (orderings) of $n$ objects in a sequence. For example, the five letters `ABCDE` can be arranged in $5! = 120$ different orderings (`ABCDE`, `EDACB`, `BADCE`, etc).
+
+>[!question] Why?
+>In order to count the number of ways to order the five letters `ABCDE`, imagine beginning with five different empty slots that we are going to fill in with letters.
+>$$
+>\underline{\hspace{1em}}\ \underline{\hspace{1em}}\ \underline{\hspace{1em}}\ \underline{\hspace{1em}}\ \underline{\hspace{1em}}
+>$$
+>Let's work left to right. There are five different letter options that we can put into the first slot (`A`, `B`, `C`, `D`, and `E`).
+>$$
+>\underline{(5)}\ \underline{\hspace{1em}}\ \underline{\hspace{1em}}\ \underline{\hspace{1em}}\ \underline{\hspace{1em}}
+>$$
+>Now that one letter has been used in the first slot, there remain only four possible letters that can go into the second slot. Similarly, only three letter options remain for the third slot and so on.
+>$$
+>\underline{(5)}\ \underline{(4)}\ \underline{(3)}\ \underline{(2)}\ \underline{(1)}
+>$$
+>
 
 # Definition of $0!$
 

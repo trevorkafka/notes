@@ -17,7 +17,7 @@ There are often many ways to solve these sorts of problems. By no means do you h
 >[!question] Problem 1
 > If number is chosen at random from 0–999, what is the probability that the number chosen contains an **odd number of odd digits**?
 
->[!check]- Solution
+>[!check]- Solution 1
 > First, let's take note of some key facts.
 > - For the digits 0–9, there are five even digits (0, 2, 4, 6, and 8) and five odd digits (1, 3, 5, 7, and 9). 
 > - For any given three digit number, an odd number of the three digits will be odd if either
@@ -46,7 +46,7 @@ There are often many ways to solve these sorts of problems. By no means do you h
 >[!question] Problem 2
 >If number is chosen at random from 0–999, what is the probability that the number chosen contains **three distinct digits**?
 
->[!check]- Solution
+>[!check]- Solution 2
 > Similar to the previous problem, let's regard all numbers in the range 0–999 as being three digit numbers by allowing leading zeroes (000, 001, 002, ..., 998, 999). Going left to right, digit by digit, we have 10 possibilities for the first digit. Once this digit is chosen and since we are restricted to three-digit numbers that don't feature repetitions of a single digit, we have nine choices for the second digit and then by the same reasoning eight choices for the third digit. This means overall that we can construct $10 \cdot 9 \cdot 8 = 720$ such numbers. Hence, the probability is 
 > 
 > $$
@@ -56,7 +56,7 @@ There are often many ways to solve these sorts of problems. By no means do you h
 >[!question] Problem 3  
 > A 5-letter string is chosen uniformly at random from all strings formed using the 26 letters of the alphabet **with no repeated letters**. What is the probability that **exactly one of the letters is a vowel**? (Use the five vowels `a`, `e`, `i`, `o`, and `u` for this problem.)
 
->[!check]- Solution
+>[!check]- Solution 3
 > Let's begin by first determining the number of 5-letter strings that can be formed with no repeated letters, without regard for the number of vowels that the string has. There are 26 possibilities for the first letter in the string. Since the second letter in the string is not allowed to be the same as the first letter in the string, this second letter is left with 25 possibilities. Continuing in this way, the total number of strings is $26 \cdot 25 \cdot 24 \cdot 23 \cdot 22 = 7893600$.
 > 
 > Let's now focus on strings that have only exactly one vowel. There are five cases:
@@ -77,7 +77,7 @@ There are often many ways to solve these sorts of problems. By no means do you h
 >[!question] Problem 4
 > A group of 7 people is randomly divided into **one team of 3 and one team of 4**. What is the probability that Alice and Bob, two of the people in the original group of seven, **end up on different teams**?
 
->[!check]- Solution
+>[!check]- Solution 4
 >Let's first determine the number of ways to divide the teams. Note that once the team of 3 is chosen, the team of 4 is uniquely determined. So, if we determine the number of ways to choose the team of 3, that resulting number is hence also the number of ways to divide the 7 people into one team of 3 and one team of 4. 
 >
 >When choosing the team of 3, there are 7 choices of people for the first person, 6 choices of people for the second person, and 5 choices of people for the last person. However, the people chosen in this team can be reordered without affecting the team itself. Since three people can be arranged into $3 \cdot 2 \cdot 1 = 6$ orderings, this means that we are sextuple-counting each of the teams under this strategy. Hence, there are $\frac{7 \cdot 6 \cdot 5}{6} = 35$ teams of 3 we can construct. This means that $35$ is also the number of ways we can divide the 7-person team into a team of 3 and a team of 4.
@@ -105,7 +105,7 @@ There are often many ways to solve these sorts of problems. By no means do you h
 >[!question]  Problem 5
 > Three balls are randomly drawn without replacement from a bag containing 4 red balls, 3 blue balls, and 2 green balls. What is the probability that the sample contains **balls of exactly two different colors**?
 
->[!check]- Solution
+>[!check]- Solution 5
 >
 >Let's begin by determining the number of ways to pull balls from the bag. There are nine balls in total and each [[Combinations and Permutations|combination]] of three balls removed from the bag occurs with equal probability. The number of ways to do this is "9 choose 3," which can be computed via the formula for combinations as follows. 
 >$$
@@ -140,7 +140,7 @@ There are often many ways to solve these sorts of problems. By no means do you h
 >[!question]  Problem 6
 > Two dice are rolled. What is the probability that the **sum is at least 10 or at least one die shows a 6**?
 
->[!check]- Solution
+>[!check]- Solution 6
 >For a problem like this, it may be easiest to visualize all of the die tosses in a table form. Here, each $(a,b)$ pair represents a possible toss of the dice, with $a$ representing the value shown on the first die and $b$ representing the value shown on the second die. Each entry in the table has an equal liklihood of being rolled.
 > 
 > I've bolded all entries where the sum is at least 10 or at least one die shows a 6.
