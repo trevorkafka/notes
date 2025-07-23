@@ -45,7 +45,7 @@ One of the most fundamental motivations for defining the factorial $n!$ of a nat
 
 # Definition of $0!$
 
-The above definition does not provide for a straightforward way to reason about the value of $0!$, though needing to compute this value is not uncommon, particularly when solving [[Probability through Counting|problems in probability]], computing [[Combinations and Permutations|combinations and permutations]], or constructing power series.
+The above definition does not provide for a straightforward way to reason about the value of $0!$, though needing to compute this value is not uncommon, particularly when solving [[Probability Through Counting|problems in probability]], computing [[Combinations and Permutations|combinations and permutations]], or constructing power series.
 
 >[!note] Definition of $0!$
 >$$

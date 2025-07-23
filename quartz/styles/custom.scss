@@ -28,3 +28,7 @@ img {
 html[saved-theme="dark"] .invert img {
 	filter: invert(92%);
 }
+
+li .katex-html {
+	margin: 16px 0px;
+}

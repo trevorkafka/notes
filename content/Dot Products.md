@@ -37,7 +37,7 @@ Notice how elegantly this extends the two-dimensional formula into three dimensi
 
 # Computing Projections with Dot Products
 
-(Information will be coming soon.)
+>[!warning] information coming soon
 
 # Computing the Angle Between Vectors with Dot Products
 
