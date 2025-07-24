@@ -157,7 +157,7 @@ The discriminant of the quadratic expression that makes up a quadratic equation 
 
 >[!check]- Solution
 > 
-> Distribute into the parentheses, rearrange terms, and add $k$ to both sides.
+> Distribute into the parentheses, rearrange terms, and subtract $k$ from both sides.
 > $$
 > \begin{gather*}
 > \underbrace{kx\left( \frac{1}{k} - x \right)}_\text{distribute} = k \\
