@@ -28,6 +28,10 @@ li .katex-html {
 	margin: 16px 0px;
 }
 
-hr {
+html[saved-theme="light"] hr {
 	background-color: black;
+}
+
+html[saved-theme="dark"] hr {
+	background-color: white;
 }
