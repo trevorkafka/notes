@@ -64,7 +64,7 @@ In certain situations, both of these values may be the same (ultimately amouting
   This version is almost never taught in schools and isn't necessary to learn aside from personal interest. Nonetheless, intermediate students may be interested in seeing if they can justify the validity of this formula. There are at least two ways to do this that I can think of.
 ### The Quadratic Discriminant
 
-The portion of the quadratic formula underneath the square root $b^2 - 4ac$ is given a name: the discriminant. The discriminant is used in the section that immediately follows.
+The portion of the quadratic formula underneath the square root $b^2 - 4ac$ is given a name: the discriminant.
 
 >[!note] The Discriminant
 >The discriminant of a quadradic expression $ax^2 + bx + c$ is defined to be the value
@@ -72,6 +72,7 @@ The portion of the quadratic formula underneath the square root $b^2 - 4ac$ is g
 >b^2 - 4ac.
 >$$
 
+The discriminant is used to determine the number and nature of the number of solutions to the quadradic equation.
 ### Nature of Solutions
 
 The discriminant of the quadratic expression that makes up a quadratic equation $ax^2 + bx + c = 0$ is a useful tool in determining the number of solutions that the equation has.
@@ -144,7 +145,66 @@ The discriminant of the quadratic expression that makes up a quadratic equation 
 >$$
 >x = \frac{{\color{red} - b } \pm \sqrt{\color{blue} b^2 - 4ac}}{\color{red} 2a}
 >$$
->In the quadratic equation above, note that the portion marked in $\color{red} \text{red}$ is the **sum of the solutions** $\color{red} x_+ = -\frac{b}{2a}$ and the portion marked in $\color{blue} \text{blue}$ is the **discriminant** $\color{blue} b^2 - 4ac$.
+>In the quadratic equation above, note that the portion marked in $\color{red} \text{red}$ is the **average of the solutions** $\color{red} x_\text{avg} = -\frac{b}{2a}$ and the portion marked in $\color{blue} \text{blue}$ is the **discriminant** $\color{blue} b^2 - 4ac$.
+
+>[!question] Practice Problem
+> 
+> Consider the equation
+> $$
+> kx\left( \frac{1}{k} - x \right)= k.
+> $$
+> While $k$ is currently unknown, imagine it to be chosen such that this equation can be satisfied for only one possible value of $x$. Determine the the possible values of $k$ and their corresponding $x$ solutions.
+
+>[!check]- Solution
+> 
+> Distribute into the parentheses, rearrange terms, and add $k$ to both sides.
+> $$
+> \begin{gather*}
+> \underbrace{kx\left( \frac{1}{k} - x \right)}_\text{distribute} = k \\
+> x - kx^2 = k \\
+> -kx^2 + x - k = 0
+> \end{gather*}
+> $$
+> By comparison to the standard form $ax^2 + bx + c = 0,$ we can see that $a = -k, b = 1, c = -k.$ Now, compute the discriminant.
+> $$
+> b^2 - 4ac = 1^2 - 4(-k)(-k) = 1 - 4k^2
+> $$
+> For the original equation to have only one solution for $x$, the discriminant must vanish (the discriminant must equal zero).
+> $$
+> \begin{gather*}
+> 1-4k^2 = 0 \\
+> 1 = 4k^2 \\
+> \frac{1}{4}=k^2 \\
+> k = \pm \frac{1}{2}
+> \end{gather*}
+> $$
+> This now leaves us with two cases.
+> - **Case 1:** $k = \frac{1}{2}$. With this value of $k$, our quadratic equation can be solved through factoring to show that the single resulting solution in this case is $x = 1.$
+>   $$
+>   \begin{gather*}
+>   -kx^2 + x - k = 0 \\
+>   -\frac{1}{2} x^2 + x - \frac{1}{2} = 0 \\
+>   x^2 - 2x + 1 = 0 \\
+>   (x-1)^2 = 0 \\
+>   x = 1
+>   \end{gather*}
+>   $$
+> - **Case 2:** $k = -\frac{1}{2}$. With this value of $k$, our quadratic equation can be solved through factoring to show that the single resulting solution in this case is $x = -1.$
+>   $$
+>   \begin{gather*}
+>   -kx^2 + x - k = 0 \\
+>   \frac{1}{2} x^2 + x + \frac{1}{2} = 0 \\
+>   x^2 + 2x + 1 = 0 \\
+>   (x+1)^2 = 0 \\
+>   x = -1
+>   \end{gather*}
+>   $$
+> 
+> Therefore, the final solutions to our problem are as follows.
+> $$
+> \boxed{k = \frac{1}{2} \text{ and } x = 1} \text{ or } \boxed{k = -\frac{1}{2} \text{ and } x = -1}
+> $$
+> 
 ### Product of Solutions
 
 >[!note] The Product of the Solutions to a Quadratic Equation
@@ -159,7 +219,7 @@ The discriminant of the quadratic expression that makes up a quadratic equation 
 >$$
 >x_1 = \frac{-b + \sqrt{b^2-4ac}}{2a} \text{ and } x_2 = \frac{-b - \sqrt{b^2-4ac}}{2a}
 >$$
->and the product of these solutions can be obtained by taking advantage of the difference of two squares pattern at the step marked $\overset{\star}{=}$.
+>and the product of these solutions can be obtained by taking advantage of the difference of two squares pattern $(p+q)(p-q) = p^2 - q^2$ at the step marked $\overset{\star}{=}$.
 >$$
 >x_\times = x_1 x_2 = \frac{-b + \sqrt{b^2-4ac}}{2a} \cdot \frac{-b - \sqrt{b^2-4ac}}{2a} \overset{\star}{=} \frac{\cancel{b^2} - (\cancel{b^2} - 4ac)}{4a^2} = \frac{c}{a}.
 >$$

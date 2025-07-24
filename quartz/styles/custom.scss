@@ -3,11 +3,6 @@
 
 // put your custom CSS here!
 
-/*.katex {
-  display: block !important;
-  text-align: center !important;
-}
-*/
 
 table {
 	margin: auto !important;
@@ -31,4 +26,8 @@ html[saved-theme="dark"] .invert img {
 
 li .katex-html {
 	margin: 16px 0px;
+}
+
+hr {
+	background-color: black;
 }

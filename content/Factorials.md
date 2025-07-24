@@ -69,12 +69,14 @@ Including this definition for $0!$ now provides us with an understanding of how 
 
 For calculus students who are familiar with improper integrals, the factorial can be extended to other numbers (including fractional numbers, irrational numbers, and complex numbers) via an integral.
 
->[!note] Integral Definition of the Factorial for any value of $n$
+>[!note] Integral Definition of the Factorial for any positive value of $n$
 >$$
 >n! = \int_0^\infty x^n e^{-x}\ dx
 >$$
 
-(In textbooks, the Gamma function is often used instead of the above definition, but I'm omitting that explanation here because there is an annoying subtle difference between the Gamma function and the factorial that in my opinion has no practical value.)
+Copy-paste code of the above integral for Desmos: `\int_0^\infty x^n e^{-x} dx`. Don't forget to add a slider for $n$.
+
+In textbooks, the [Gamma function](https://en.wikipedia.org/wiki/Gamma_function) is often used instead of the above definition, but I'm omitting that explanation here because there is an annoying subtle difference between the Gamma function and the factorial that in my opinion has no practical value.
 
 I strongly recommend trying to verify the following facts that follow from this definition.
 - $0! = 1$
@@ -86,4 +88,25 @@ These two facts together are what ensure that the definition above agrees with t
   $$
   \left( \frac{1}{2} \right)! = \frac{\sqrt \pi}{2} = 0.8862269255\ldots
   $$
+  It is **not** easy to show that this result follows from the integral definition of the factorial but nonetheless the result is true.
 - This integral does not converge for any negative integer $n$, which in general means that $n!$ is undefined for any negative integer $n$. When graphing $y = x!$, one can see vertical asymptotes at all of the negative integer values of $x$, which reflects this fact.
+
+From the property $(n+1)! = (n+1) \cdot n!$ and the integral definition of the factorial given in the box above, the values of the factorial of any negative number can be extrapolated as illustrated in the example below.
+
+>[!question] Example
+>Given that $\left( \frac{1}{2} \right)! = \frac{\sqrt \pi}{2}$, show that $\left( - \frac{1}{2} \right)!\ = \sqrt \pi.$
+
+>[!check]- Solution
+> 
+> $$
+> \begin{align*}
+> (n+1)! &= (n+1) \cdot n! & \text{established property} \\[0.5em]
+> \left( \frac{1}{2} \right)! &= \frac{1}{2} \cdot \left( - \frac{1}{2} \right)! & \text{set } n = \tfrac{1}{2} \\[0.5em]
+> \frac{\sqrt \pi}{2} &= \frac{1}{2} \cdot \left( - \frac{1}{2} \right)! & \text{substitute } \left( \tfrac{1}{2} \right)! = \tfrac{\sqrt \pi}{2} \\[0.5em]
+> \sqrt \pi &= \left( - \frac{1}{2} \right)! & \text{multiply both sides by } 2
+> \end{align*}
+> $$
+> 
+> The proof is now complete. A sanity check of this result can be provided with the help of a calculator.
+> 
+> ![[attachments/Pasted image 20250723223841.png]]
