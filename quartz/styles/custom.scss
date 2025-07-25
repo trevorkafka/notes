@@ -35,3 +35,11 @@ html[saved-theme="light"] hr {
 html[saved-theme="dark"] hr {
 	background-color: white;
 }
+
+html[saved-theme="light"] section.footnotes {
+	border-top-color: black !important;
+}
+
+html[saved-theme="dark"] section.footnotes {
+	border-top-color: white !important;
+}
