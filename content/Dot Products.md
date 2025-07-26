@@ -10,13 +10,15 @@ aliases:
 
 The **dot product** $\vec{\mathbf a} \cdot \vec{\mathbf b}$ of two vectors $\vec{\mathbf a}$ and $\vec{\mathbf b}$ is defined in terms of the vector magnitudes $a$ and $b$ as well as the angle between the vectors $\theta$.
 
-$$
-\vec{\mathbf a} \cdot \vec{\mathbf b} = ab \cos \theta
-$$
+>[!note] Definition of a Dot Product
+> $$
+> \vec{\mathbf a} \cdot \vec{\mathbf b} = ab \cos \theta
+> $$
+
 This definition holds for vectors in any number of dimensions.
 # Computation in Terms of Components
 
-The dot product can be *very conveniently* computed in terms of the two-dimensional components of $\vec{\mathbf a} = \langle a_x, a_y \rangle$ and $\vec{\mathbf b} = \langle b_x, b_y \rangle$ according to the following theorem.
+The dot product can be *very conveniently* also be computed in terms of the two-dimensional components of $\vec{\mathbf a} = \langle a_x, a_y \rangle$ and $\vec{\mathbf b} = \langle b_x, b_y \rangle$ according to the following theorem.
 
 >[!note] Theorem: Computing a Dot Product in Terms of Vector Components (2D)
 > $$

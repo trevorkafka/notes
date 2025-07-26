@@ -6,7 +6,9 @@ aliases:
   - "620727"
 draft: false
 ---
-On this page I will provide some general guidance on how to use the **TI 83–84 calculators**' most important functionalities. This page is a continual work in progress and more features will be added as time goes on.
+On this page I will provide some general guidance on how to use the **TI 83–84 calculators**' most important functionalities.
+
+>[!warning] This page is a continual work in progress and more features will be added as time goes on.
 
 # Graphing Functions
 
