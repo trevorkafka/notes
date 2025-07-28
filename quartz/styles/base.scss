@@ -40,7 +40,7 @@ ol,
 ul,
 .katex,
 .math {
-  color: var(--darkgray);
+  /*color: var(--darkgray);*/ /* removed this because it was interfering with equation color  */
   fill: var(--darkgray);
   hyphens: auto;
 }
