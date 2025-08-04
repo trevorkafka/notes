@@ -85,7 +85,7 @@ The projection of a vector $\vec{\mathbf a}$ on a second vector $\vec{\mathbf b}
 ## Practice Problem
 
 >[!question] Problem
->Show that if $\vec{\mathbf u} = \vec{\mathbf a} -  \text{proj}_{\vec{\mathbf b}} \vec{\mathbf a}$, and neither $\vec{\mathbf u}$ or $\vec{\mathbf b}$ are the zero vector then $\vec{\mathbf u}$ is perpendicular to $\vec{\mathbf b}$.
+>Show that if $\vec{\mathbf u} = \vec{\mathbf a} -  \text{proj}_{\vec{\mathbf b}} \vec{\mathbf a}$, and neither $\vec{\mathbf u}$ or $\vec{\mathbf b}$ are the zero vector, then $\vec{\mathbf u}$ is perpendicular to $\vec{\mathbf b}$.
 
 >[!check]- Solution 1
 > Based on the definition of $\vec{\mathbf u}$, we have that $\vec{\mathbf a} = \vec{\mathbf u} + \text{proj}_{\vec{\mathbf b}} \vec{\mathbf a}.$ This means that $\vec{\mathbf u}$ can be included in a vector diagram with $\vec{\mathbf a},$ $\vec{\mathbf b},$ and $\text{proj}_{\vec{\mathbf b}} \vec{\mathbf a}$ as follows.
@@ -105,7 +105,7 @@ The projection of a vector $\vec{\mathbf a}$ on a second vector $\vec{\mathbf b}
 > &= \vec{\mathbf a} \cdot \vec{\mathbf b} - \frac{(\vec{\mathbf a} \cdot \vec{\mathbf b}) \cancel{b^2}}{\cancel{b^2}} = 0
 > \end{align*}
 > $$
-> Since $\vec{\mathbf u} \cdot \vec{\mathbf b} = 0$, we must have that $\vec{\mathbf u} \perp \vec{\mathbf b}$.
+> Since $\vec{\mathbf u} \cdot \vec{\mathbf b} = 0$ and neither $\vec{\mathbf u}$ nor $\vec{\mathbf b}$ themselves have a magnitude of zero, we must have that $\vec{\mathbf u} \perp \vec{\mathbf b}$.
 # Computing the Angle Between Vectors with Dot Products
 
 From the definition $\vec{\mathbf a} \cdot \vec{\mathbf b} = ab \cos \theta$ given at the beginning of the article, one can rearrange the formula to solve for $\theta,$ the angle between the two vectors  $\vec{\mathbf a}$ and $\vec{\mathbf b}.$ 
