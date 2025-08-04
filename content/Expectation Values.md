@@ -76,7 +76,7 @@ Below, I am providing the definition of an expectation value, but this may not b
 >
 >What is the expected score obtained?
 
->[!check] Solution
+>[!check]- Solution
 > Below are the possible scores based on the given description.
 > 
 > | Coin  | Die | Score | Probability    |
@@ -107,7 +107,8 @@ Below, I am providing the definition of an expectation value, but this may not b
 > | $6$   | $\frac{1}{12}$ |
 > | $8$   | $\frac{1}{12}$ |
 > | $12$  | $\frac{1}{12}$ |
->From here, we can compute the expected score.
+>
+> From here, we can compute the expected score.
 >$$
 >\begin{align*}
 >\langle \text{score} \rangle &= 0 \cdot \frac{3}{12} + 1 \cdot \frac{1}{12} + 2 \cdot \frac{1}{12} + 3 \cdot \frac{1}{12} + 4 \cdot \frac{2}{12} + 5 \cdot \frac{1}{12} + 6 \cdot \frac{1}{12} + 8 \cdot \frac{1}{12} + 12 \cdot \frac{1}{12} \\

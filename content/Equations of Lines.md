@@ -54,9 +54,13 @@ Point-slope equations of lines are *not unique*, meaning that if you are asked t
 >m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{3 - 1}{2 - 5} = - \frac{2}{3}.
 >$$
 >Using $(2,3)$ as our point in constructing the point-slope form of the equation of the line, we have
->$$\boxed{ y - 3 = - \frac{2}{3}(x - 2) }  \text{ or } \boxed{y = - \frac{2}{3}(x - 2) + 3}.$$
+>$$
+>\boxed{ y - 3 = - \frac{2}{3}(x - 2) }  \text{ or } \boxed{y = - \frac{2}{3}(x - 2) + 3}.
+>$$
 >Alternatively, using $(5,1)$ as our point, we have
->$$\boxed{y - 1 = -\frac{2}{3} (x - 5) } \text{ or } \boxed{y = -\frac{2}{3} (x - 5) + 1}.$$
+>$$
+>\boxed{y - 1 = -\frac{2}{3} (x - 5) } \text{ or } \boxed{y = -\frac{2}{3} (x - 5) + 1}.
+>$$
 >
 >Many other solutions are possible too, but the ones above are most likely contains the one you were aiming for.
 
