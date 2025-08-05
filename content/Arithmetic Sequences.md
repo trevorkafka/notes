@@ -42,7 +42,8 @@ The equation $a_{n+1} = a_n + d$ communicates that given a particular term in th
 > The first term of an arithmetic sequence is $10$ and the common difference is $4$. Write the explicit formula.
 
 >[!check]- Solution 1
->We are given $a_1 = 10$ (so $k = 1$) and $d = 4$. Plugging these into the boxed formula above gives $$
+>We are given $a_1 = 10$ (so $k = 1$) and $d = 4$. Plugging these into the boxed formula above gives 
+>$$
 >\begin{gather*}
 >a_n = a_1 + d(n-1) \\
 >\boxed{a_n = 10 + 4(n-1)}.
@@ -87,7 +88,6 @@ The equation $a_{n+1} = a_n + d$ communicates that given a particular term in th
 >\end{cases}
 >}
 >$$
-\
 
 >[!question] Problem 2
 >Write the recursive formula for the arithmetic sequence given by the explicit formula $a_n = -2 + 5(n-1)$.
@@ -138,8 +138,8 @@ The number of terms between $a_k$ and $a_n$ can be computed as $N = n - k + 1.$ 
 >\begin{gather*}
 >53 = -5 + 2(N-1) \\
 >58 = 2 (N-1) & \text{add 2} \\
- 28 = N - 1 & \text{divide by 2} \\
- N = 29 & \text{add 1}
+>28 = N - 1 & \text{divide by 2} \\
+>N = 29 & \text{add 1}
 >\end{gather*}
 >$$ 
 >Now, use the formula for the sum of the terms of an arithmetic sequence with $N = 29$ in order to determine the sum.
