@@ -5,11 +5,11 @@ aliases:
 ---
 Various equations can form a line in the $xy$ plane when graphed. There are three types of such equations that are of particular interest in mathematics. Each form is most useful in its own context, which is summarized in the table below.
 
-| Form                                  | Why this form is important:                                                                                                                                              |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Slope-Intercept Form $y = mx + b$     | Easiest to write down when the line's slope and $y$-intercept are known. Alternatively, it's easy to determine a line's slope and $y$-intercept from the equation.       |
-| Point-Slope Form $y - y_0 = m(x-x_0)$ | Easiest to write down when the line's slope and the coordinates of any single point on the line is known. (This is a *very* common situation, particularly in calculus.) |
-| Standard Form $Ax + By = 1$           | Used to describe lines in the context of systems of equations (another algebra I topic) and linear transformations (a precalculus or college-level topic).               |
+| Form                                     | Why this form is important:                                                                                                                                              |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Slope-Intercept Form<br> $y = mx + b$    | Easiest to write down when the line's slope and $y$-intercept are known. Alternatively, it's easy to determine a line's slope and $y$-intercept from the equation.       |
+| Point-Slope Form<br>$y - y_0 = m(x-x_0)$ | Easiest to write down when the line's slope and the coordinates of any single point on the line is known. (This is a *very* common situation, particularly in calculus.) |
+| Standard Form<br>$Ax + By = 1$           | Used to describe lines in the context of systems of equations (another algebra I topic) and linear transformations (a precalculus or college-level topic).               |
 
 # Slope-Intercept Form
 Slope-intercept form is typically the first form of an equation of a line that is learned and is also typically the most well-remembered by students.[^1]
@@ -70,8 +70,10 @@ The standard form equation of line is typically least-well understood by student
 To make matters a little more confusing, there are *two* versions of the equation of a line that are regarded as standard form. The choice of which format to use depends on your course instructor. Version 1 presented below is just a special case of Version 2 that follows.
 
 >[!note] Standard Form Equation of a Line (Version 1)
->Let $A$ and $B$ be constants. The following equation has the equation of a line.
->$$Ax + By = 1$$
+>Let $A$ and $B$ be constants. The following is the **standard form equation** of a line.
+>$$
+>Ax + By = 1
+>$$
 
 For the above equation of a line, 
 - the $x$ intercept of the line is located at $(\frac{1}{A},0),$
@@ -102,8 +104,10 @@ For the above equation of a line,
 Version 1 standard form equations of a line are *unique*, meaning that if you are asked to write down the version one standard form equation of a line, there is only *one* possible correct answer.
 
 >[!note] Standard Form Equation of a Line (Version 2)
->Let $A,$ $B,$ and $C$ be constants. The following equation has the equation of a line.
->$$Ax + By = C$$
+>Let $A,$ $B,$ and $C$ be constants. The following is a **standard form equation** of a line.
+>$$
+>Ax + By = C
+>$$
 
 For the above equation of a line, 
 - the $x$ intercept of the line is located at $(\frac{C}{A},0),$
@@ -128,11 +132,11 @@ Version 2 standard form equations of lines are *not unique*, meaning that if you
 >y = - \frac{2}{3} x + \frac{13}{3} & \text{add } 1 \\
 >\frac{2}{3} x + y = \frac{13}{3} & \text{add } \frac{2}{3} x \\
 >\boxed{\frac{2}{13} x + \frac{3}{13} y = 1} & \text{divide by } \frac{13}{3}
-\end{gather*}
+>\end{gather*}
 >$$
 
 >[!question] Problem 2
->Prove it the equation of a line is given by $Ax + By = C,$ then
+>Prove if the equation of a line is given by $Ax + By = C,$ then
 > - the $x$ intercept of the line is located at $(\frac{C}{A},0),$
 > - the $y$ intercept of the line is located at $(0,\frac{C}{B}),$ and
 > - the slope of the line is given by $- \frac{A}{B}$.

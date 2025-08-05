@@ -6,17 +6,41 @@
       <description>Last 10 notes on Trevor&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Factoring Patterns</title>
-    <link>https://www.trevorkafka.com/Factoring-Patterns</link>
-    <guid>https://www.trevorkafka.com/Factoring-Patterns</guid>
-    <description>Below is a reference page containing various useful factoring patterns for real numbers.</description>
-    <pubDate>Tue, 29 Jul 2025 01:59:37 GMT</pubDate>
+    <title>Equations of Lines</title>
+    <link>https://www.trevorkafka.com/Equations-of-Lines</link>
+    <guid>https://www.trevorkafka.com/Equations-of-Lines</guid>
+    <description>Various equations can form a line in the xy plane when graphed.</description>
+    <pubDate>Mon, 04 Aug 2025 23:53:52 GMT</pubDate>
+  </item><item>
+    <title>Expectation Values</title>
+    <link>https://www.trevorkafka.com/Expectation-Values</link>
+    <guid>https://www.trevorkafka.com/Expectation-Values</guid>
+    <description>In probability, we often have events that have a variety of possible numerical outcomes.</description>
+    <pubDate>Mon, 04 Aug 2025 23:53:52 GMT</pubDate>
+  </item><item>
+    <title>Arithmetic Sequences</title>
+    <link>https://www.trevorkafka.com/Arithmetic-Sequences</link>
+    <guid>https://www.trevorkafka.com/Arithmetic-Sequences</guid>
+    <description>An arithmetic sequence is a sequence of numbers such that the difference between every term and the term that came before it is the same.</description>
+    <pubDate>Mon, 04 Aug 2025 23:47:22 GMT</pubDate>
   </item><item>
     <title>Dot Products</title>
     <link>https://www.trevorkafka.com/Dot-Products</link>
     <guid>https://www.trevorkafka.com/Dot-Products</guid>
     <description>Definition in Terms of Vector Magnitudes and Angles The dot product \vec{\mathbf a} \cdot \vec{\mathbf b} of two vectors \vec{\mathbf a} and \vec{\mathbf b} is defined in terms of the vector magnitudes a and b as well as the angle between the vectors \theta.</description>
-    <pubDate>Mon, 28 Jul 2025 15:32:25 GMT</pubDate>
+    <pubDate>Mon, 04 Aug 2025 23:47:22 GMT</pubDate>
+  </item><item>
+    <title>Factorials</title>
+    <link>https://www.trevorkafka.com/Factorials</link>
+    <guid>https://www.trevorkafka.com/Factorials</guid>
+    <description>Definition for Factorials of Natural Numbers A factorial of some natural number n, written as n! and read as ”n factorial,” is the product of all natural numbers less than or equal to n.</description>
+    <pubDate>Mon, 04 Aug 2025 23:47:22 GMT</pubDate>
+  </item><item>
+    <title>Factoring Patterns</title>
+    <link>https://www.trevorkafka.com/Factoring-Patterns</link>
+    <guid>https://www.trevorkafka.com/Factoring-Patterns</guid>
+    <description>Below is a reference page containing various useful factoring patterns for real numbers.</description>
+    <pubDate>Thu, 31 Jul 2025 12:34:32 GMT</pubDate>
   </item><item>
     <title>Welcome to Trevor&#039;s Notes</title>
     <link>https://www.trevorkafka.com/</link>
@@ -41,30 +65,6 @@
     <guid>https://www.trevorkafka.com/Quadratic-Equations</guid>
     <description>Below is the basic definition of a quadratic equation.</description>
     <pubDate>Thu, 24 Jul 2025 03:40:29 GMT</pubDate>
-  </item><item>
-    <title>Factorials</title>
-    <link>https://www.trevorkafka.com/Factorials</link>
-    <guid>https://www.trevorkafka.com/Factorials</guid>
-    <description>Definition for Factorials of Natural Numbers A factorial of some natural number n, written as n! and read as ”n factorial,” is the product of all natural numbers less than or equal to n.</description>
-    <pubDate>Thu, 24 Jul 2025 03:22:05 GMT</pubDate>
-  </item><item>
-    <title>Trigonometric Sum and Difference Formulas</title>
-    <link>https://www.trevorkafka.com/Trigonometric-Sum-and-Difference-Formulas</link>
-    <guid>https://www.trevorkafka.com/Trigonometric-Sum-and-Difference-Formulas</guid>
-    <description>For any angles A and B, the following relationships hold for sine and cosine.</description>
-    <pubDate>Tue, 22 Jul 2025 14:28:55 GMT</pubDate>
-  </item><item>
-    <title>Vectors</title>
-    <link>https://www.trevorkafka.com/Problems--and--Solutions/Vectors</link>
-    <guid>https://www.trevorkafka.com/Problems--and--Solutions/Vectors</guid>
-    <description>Problems titled “Giancoli” are sourced from Physics: Principles with Applications by Giancoli.</description>
-    <pubDate>Tue, 22 Jul 2025 14:28:55 GMT</pubDate>
-  </item><item>
-    <title>Probability Through Counting</title>
-    <link>https://www.trevorkafka.com/Problems--and--Solutions/Probability-Through-Counting</link>
-    <guid>https://www.trevorkafka.com/Problems--and--Solutions/Probability-Through-Counting</guid>
-    <description>Lots of problems in probability are really problems in creative counting.</description>
-    <pubDate>Mon, 21 Jul 2025 16:16:19 GMT</pubDate>
   </item>
     </channel>
   </rss>

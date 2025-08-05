@@ -32,6 +32,7 @@ Below, I am providing the definition of an expectation value, but this may not b
 > | 3         | 20%                |
 > | 4         | 25%                |
 > | 5         | 30%                |
+> 
 > The expected value of $n$ or **expected score** in this context would be given by
 > $$
 > \langle n \rangle = 1 \cdot 0.10 + 2 \cdot 0.15 + 3 \cdot 0.20 + 4 \cdot 0.25 + 5 \cdot 0.30 = \boxed{3.5}.
@@ -49,6 +50,7 @@ Below, I am providing the definition of an expectation value, but this may not b
 > | 3         | $20 \cdot 0.20 = 4$             |
 > | 4         | $20 \cdot 0.25 = 5$             |
 > | 5         | $20 \cdot 0.30 = 6$             |
+> 
 > In order to compute the average score we need to take the average across all $20$ games. This average score across the $20$ games is what we are calling the expectation score $\langle n \rangle.$
 > $$
 > \begin{align*}
