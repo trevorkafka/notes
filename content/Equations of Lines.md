@@ -2,6 +2,7 @@
 tags:
   - algebra-1
 aliases:
+  - "810689"
 ---
 Various equations can form a line in the $xy$ plane when graphed. There are three types of such equations that are of particular interest in mathematics. Each form is most useful in its own context, which is summarized in the table below.
 

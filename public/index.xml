@@ -6,17 +6,23 @@
       <description>Last 10 notes on Trevor&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Determinants</title>
+    <link>https://www.trevorkafka.com/Determinants</link>
+    <guid>https://www.trevorkafka.com/Determinants</guid>
+    <description> This topic is sometimes not covered in precalculus classes. It is more often included as a part of a linear algebra class covered in college.</description>
+    <pubDate>Tue, 05 Aug 2025 18:30:55 GMT</pubDate>
+  </item><item>
     <title>Equations of Lines</title>
     <link>https://www.trevorkafka.com/Equations-of-Lines</link>
     <guid>https://www.trevorkafka.com/Equations-of-Lines</guid>
     <description>Various equations can form a line in the xy plane when graphed.</description>
-    <pubDate>Mon, 04 Aug 2025 23:53:52 GMT</pubDate>
+    <pubDate>Tue, 05 Aug 2025 13:51:17 GMT</pubDate>
   </item><item>
     <title>Expectation Values</title>
     <link>https://www.trevorkafka.com/Expectation-Values</link>
     <guid>https://www.trevorkafka.com/Expectation-Values</guid>
     <description>In probability, we often have events that have a variety of possible numerical outcomes.</description>
-    <pubDate>Mon, 04 Aug 2025 23:53:52 GMT</pubDate>
+    <pubDate>Tue, 05 Aug 2025 13:51:17 GMT</pubDate>
   </item><item>
     <title>Arithmetic Sequences</title>
     <link>https://www.trevorkafka.com/Arithmetic-Sequences</link>
@@ -59,12 +65,6 @@
     <guid>https://www.trevorkafka.com/TI-Calculator-Reference</guid>
     <description>On this page I will provide some general guidance on how to use the TI 83–84 calculators’ most important functionalities.</description>
     <pubDate>Sat, 26 Jul 2025 16:54:22 GMT</pubDate>
-  </item><item>
-    <title>Quadratic Equations</title>
-    <link>https://www.trevorkafka.com/Quadratic-Equations</link>
-    <guid>https://www.trevorkafka.com/Quadratic-Equations</guid>
-    <description>Below is the basic definition of a quadratic equation.</description>
-    <pubDate>Thu, 24 Jul 2025 03:40:29 GMT</pubDate>
   </item>
     </channel>
   </rss>

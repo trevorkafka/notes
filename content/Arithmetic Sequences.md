@@ -2,6 +2,7 @@
 tags:
   - algebra-2
 aliases:
+  - "583126"
 ---
 An **arithmetic** sequence is a sequence of numbers such that the difference between every term and the term that came before it is the same. Below are some examples of arithmetic sequences and their **common differences**.
 

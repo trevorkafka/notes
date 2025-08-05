@@ -3,6 +3,7 @@ tags:
   - probability
   - algebra-2
 aliases:
+  - "647108"
 ---
 In probability, we often have events that have a variety of possible numerical outcomes. For example, when a die is rolled, the possible numerical outcomes are the integers $1$ through $6.$ When certain games are played, it is possible to obtain certain scores each with potentially different probabilities. A quantity called the **expectation value** can be used to determine what the average output value might be after many, many trials. 
 
