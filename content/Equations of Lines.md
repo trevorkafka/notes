@@ -6,11 +6,11 @@ aliases:
 ---
 Various equations can form a line in the $xy$ plane when graphed. There are three types of such equations that are of particular interest in mathematics. Each form is most useful in its own context, which is summarized in the table below.
 
-| Form                                     | Why this form is important:                                                                                                                                              |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Slope-Intercept Form<br> $y = mx + b$    | Easiest to write down when the line's slope and $y$-intercept are known. Alternatively, it's easy to determine a line's slope and $y$-intercept from the equation.       |
-| Point-Slope Form<br>$y - y_0 = m(x-x_0)$ | Easiest to write down when the line's slope and the coordinates of any single point on the line is known. (This is a *very* common situation, particularly in calculus.) |
-| Standard Form<br>$Ax + By = 1$           | Used to describe lines in the context of systems of equations (another algebra I topic) and linear transformations (a precalculus or college-level topic).               |
+| Form                                  | Why this form is important:                                                                                                                                              |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Slope-Intercept Form $y = mx + b$     | Easiest to write down when the line's slope and $y$-intercept are known. Alternatively, it's easy to determine a line's slope and $y$-intercept from the equation.       |
+| Point-Slope Form $y - y_0 = m(x-x_0)$ | Easiest to write down when the line's slope and the coordinates of any single point on the line is known. (This is a *very* common situation, particularly in Calculus.) |
+| Standard Form $Ax + By = 1$           | Used to describe lines in the context of systems of equations (another Algebra 1 topic) and linear transformations (a precalculus or college-level topic).               |
 
 # Slope-Intercept Form
 Slope-intercept form is typically the first form of an equation of a line that is learned and is also typically the most well-remembered by students.[^1]
@@ -28,8 +28,9 @@ Slope-intercept equations of a line are *unique*, meaning that if you are asked 
 >Write down the slope-intercept equation of the line of slope $4$ that passes through the point $(0,3)$.
 
 >[!check]- Solution
+>Since  $(0,3)$ is the $y$ intercept, we have $b = 3$. We are also told that $m = 4,$ so the answer is as follows.
 >$$
->y = 4x + 3
+>\boxed{y = 4x + 3}
 >$$
 # Point-Slope Form
 Point-slope form is an extremely useful and versatile version of an equation of a line. It allows us to immediately write down the equation of a line based on 
@@ -97,7 +98,7 @@ For the above equation of a line,
 >\begin{gather*}
 >Ax + By = 1 \\
 >By = -Ax + 1 & \text{subtract } Ax \\
->y = \underbrace{- \frac{A}{B}}_\text{slope} x = \frac{1}{B} & \text{divide by } B
+>y = \underbrace{- \frac{A}{B}}_\text{slope} x + \frac{1}{B} & \text{divide by } B
 >\end{gather*}
 >$$
 >From this form of the equation of the line, it is easy to see that the coefficient on $x$ is $-\frac{A}{B},$ hence implying that the slope of this line is $- \frac{A}{B}.$
@@ -158,7 +159,7 @@ Version 2 standard form equations of lines are *not unique*, meaning that if you
 >\begin{gather*}
 >Ax + By = C \\
 >By = -Ax + C & \text{subtract } Ax \\
->y = \underbrace{- \frac{A}{B}}_\text{slope} x = \frac{C}{B} & \text{divide by } B
+>y = \underbrace{- \frac{A}{B}}_\text{slope} x + \frac{C}{B} & \text{divide by } B
 >\end{gather*}
 >$$
 >From this form of the equation of the line, it is easy to see that the coefficient on $x$ is $-\frac{A}{B},$ hence implying that the slope of this line is $- \frac{A}{B}.$
