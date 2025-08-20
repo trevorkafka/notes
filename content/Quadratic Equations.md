@@ -28,8 +28,54 @@ There are a few main ways to solve quadratic equations, which each carry their o
 | 3. [Quadratic Formula](#quadratic-formula)         | can be used to solve any quadratic equation                                                                                                                              | can be moderately to extremely challenging even in simple situations |
 ## Factoring
 
->[!warning] information coming soon
+Factoring can be used to solve quadratic equations (as well as a variety of other sorts of equations). In theory, this method of solving is always possible, but in practice it can be impractical. For cases where it is practical, though, it *can* be the fastest way to solve a quadratic equation, even when you have a calculator.
 
+Any time you are presented with a quadratic equation and aim to solve by factoring, first **factor out a greatest common factor (GCF)** if present. Here's an example so that you have a sense of what I mean. After this has been done, proceed with either of the two methods described below dependent on whether $a = 1$ or $a \neq 1.$
+
+>[!example] Example of Factoring Out a Greatest Common Factor (GCF)
+>Given the quadratic equation 
+>$$
+>2x^2 + 4x - 30 = 0
+>$$
+>the terms $2x^2,$ $4x,$ and $-30$ all have a **greatest common factor (GCF)** of $2,$ which can be factored out.
+>$$
+>2(x^2 + 2x - 15) = 0
+>$$
+>This GCF can then be divided out.
+>$$
+>x^2 + 2x - 15 = 0
+>$$
+>In this situation, interpreting our equation as $ax^2 + bx + c = 0,$ we can see that $a = 1,$ $b = 2,$ and $c = -15.$
+
+### Factoring if $a = 1$
+
+If $a = 1$, then follow these steps to solve your quadratic equation of the form $x^2 + bx + c = 0.$
+1. Determine two numbers $n_1$ and $n_2$ that add to $b$ and multiply to $c.$ These numbers may be positive or negative. They also may or may not be whole numbers.
+2. Factor the equation as $(x + \underline{\ \ \ })(x + \underline{\ \ \ }) = 0,$ where the two numbers found in the previous step go into the blanks.
+3. Apply the **[[Zero Product Property|zero product property]]** to split up the equation into two simpler equations and solve for $x$ from there.
+
+>[!example] Example of factoring when $a = 1$
+>To solve the equation
+>$$
+>x^2 + 2x - 15 = 0,
+>$$
+>which is a quadratic equation with $a = 1,$  let's follow the steps outlined above.
+>1. Determine two numbers that add up to $b = 2$ and multiply to $c = -15.$ These two numbers are $5$ and $-3.$
+>2. Use these two numbers to factor the equation.
+>$$
+>(x + 5)(x - 3) = 0
+>$$
+>3. Apply the [[Zero Product Property|zero product property]]. We conclude the following.
+>$$
+>x + 5 = 0 \text{ or } x - 3 = 0
+>$$
+>Hence
+>$$
+>\boxed{x = \left\{ -5, 3\right\}}.
+>$$
+### Factoring if $a \neq 1$
+
+>[!warning] information coming soon
 ## Completing the Square
 
 >[!warning] information coming soon

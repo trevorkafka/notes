@@ -44,7 +44,7 @@ In math classes, one often learns the *completing the square* method in order to
 >$$
 
 These formulas are quite easy to remember:
-- The formula for $h$ is simply the quadratic formula with the square-root portion removed $\frac{-b \ \ \xcancel{\pm \sqrt{b^2 - 4ac}}}{2a}.$
+- The formula for $h$ is simply the quadratic formula with the square-root portion removed $\frac{-b \ \ {\color{red} \xcancel{\pm \sqrt{b^2 - 4ac}}}}{2a}.$
 - The formula for $k$ is simply the output of  $y = ax^2 + bx + c$ when the input is set to $x = h.$ (Why?)
 
 # Practice Problems
