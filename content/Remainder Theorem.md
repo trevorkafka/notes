@@ -83,9 +83,10 @@ Do not use polynomial division to solve any of the following problems (the remai
 
 >[!question] Problem 5
 > Determine the remainder of $x^4 - 2x + 1$ when divided by each of the following.
-> $x - 1$
-> $x + 1$
-> $x$
+>
+>- $x - 1$
+>- $x + 1$
+>- $x$
 
 >[!check]- Solution 5
 >- The remainder of $(x^4 - 2x + 1)\div(x-1)$ is $1^4 - 2 \cdot 1 + 1 = 1 - 2 + 1 = \boxed{0}.$
