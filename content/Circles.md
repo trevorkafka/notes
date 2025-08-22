@@ -51,4 +51,4 @@ The equation of a circle of radius $r$ and center $(h,k)$ in the $xy$-plane is g
 
 A sketch of the resulting circular graph is provided below.
 
-![[Drawboard-PDF-Annotation-Copy 1.png]]
+<span class="invert">![[attachments/Drawboard-PDF-Annotation-Copy 9.png]]<span class="invert">

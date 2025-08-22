@@ -22,12 +22,12 @@ For example, if we say "$A$ is $40\%$ larger than $B$," we mean that $A = (1 + \
 - $A = 50.4$ is $40\%$ larger than $B = 36$ because $50.5 = 1.4 \cdot 36.$
 
 >[!Example] Example
->Question: $50$ is $31\%$ larger than what number?
+>**Question:** $50$ is $31\%$ larger than what number?
 >
->Solution: Let the unknown number be $x$. So, 
+>**Solution:** Let the unknown number be $x$. So, 
 >$$
 >\begin{gather*}
->50 = (1 + \frac{31}{100})x \\
+>50 = \left( 1 + \frac{31}{100} \right) x \\
 >50 = 1.31 x \\
 >x = \frac{50}{1.31} = \boxed{38.1679\ldots}
 >\end{gather*}
@@ -87,10 +87,10 @@ For example, if we say "$A$ is $40\%$ smaller than $B$," we mean that $A = (1 - 
 >$$
 >Substitute the second equation into the first to eliminate $B$.
 >$$
->\cancel A = \left( 1 - \frac{p}{100} \right) \left( 1 + \frac{p}{100} \right) \cancel A \\
->1 = \left( 1 - \frac{p}{100} \right) \left( 1 + \frac{p}{100} \right) \\
->1 = 1 - \frac{p^2}{10000} \\
->0 = - \frac{p^2}{10000} \\
+>\cancel A = \left( 1 - \frac{p}{100} \right) \left( 1 + \frac{p}{100} \right) \cancel A \\[0.5em]
+>1 = \left( 1 - \frac{p}{100} \right) \left( 1 + \frac{p}{100} \right) \\[0.5em]
+>1 = 1 - \frac{p^2}{10000} \\[0.5em]
+>0 = - \frac{p^2}{10000} \\[0.5em]
 >\boxed{p = 0}
 >$$
 >So, evidently, both of these statements can be true only when
@@ -98,4 +98,4 @@ For example, if we say "$A$ is $40\%$ smaller than $B$," we mean that $A = (1 - 
 >- $A$ is $0\%$ smaller than $B$
 >- $B$ is $0\%$ larger than $A$
 >
->Any values of $A$ and $B$ such that $\boxed{A = B}$ will do.
+>In such a case, *any* values of $A$ and $B$ such that $\boxed{A = B}$ will do.
