@@ -76,6 +76,10 @@ If $a = 1$, then follow these steps to solve your quadratic equation of the form
 ### Factoring if $a \neq 1$
 
 >[!warning] information coming soon
+
+### Special Factoring Patterns
+
+Please see [[Factoring Patterns]].
 ## Completing the Square
 
 >[!warning] information coming soon
@@ -113,13 +117,10 @@ In certain situations, both of these values may be the same (ultimately amouting
 The portion of the quadratic formula underneath the square root $b^2 - 4ac$ is given a name: the discriminant.
 
 >[!note] The Discriminant
->The discriminant of a quadradic expression $ax^2 + bx + c$ is defined to be the value
->$$
->b^2 - 4ac.
->$$
+>The **discriminant** of a quadradic expression $ax^2 + bx + c$ is defined to be the value $b^2 - 4ac.$
 
-The discriminant is used to determine the number and nature of the number of solutions to the quadradic equation.
-### Nature of Solutions
+The discriminant is used to determine the number and nature of the number of solutions to the quadradic equation, as described in the next section.
+### Nature and Number of Solutions
 
 The discriminant of the quadratic expression that makes up a quadratic equation $ax^2 + bx + c = 0$ is a useful tool in determining the number of solutions that the equation has.
 
