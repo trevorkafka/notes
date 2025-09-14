@@ -6,23 +6,29 @@
       <description>Last 10 notes on Trevor&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Probability Through Counting</title>
+    <link>https://www.trevorkafka.com/Problems--and--Solutions/Probability-Through-Counting</link>
+    <guid>https://www.trevorkafka.com/Problems--and--Solutions/Probability-Through-Counting</guid>
+    <description>Lots of problems in probability are really problems in creative counting.</description>
+    <pubDate>Fri, 22 Aug 2025 22:41:24 GMT</pubDate>
+  </item><item>
+    <title>Circles</title>
+    <link>https://www.trevorkafka.com/Circles</link>
+    <guid>https://www.trevorkafka.com/Circles</guid>
+    <description>A circle is a set of points in a plane that are at a fixed distance away from a chosen point, called the center of the circle.</description>
+    <pubDate>Fri, 22 Aug 2025 22:41:19 GMT</pubDate>
+  </item><item>
     <title>Percentage Increase &amp; Decrease</title>
     <link>https://www.trevorkafka.com/Percentage-Increase--and--Decrease</link>
     <guid>https://www.trevorkafka.com/Percentage-Increase--and--Decrease</guid>
     <description>This article is dedicated to the precise mathematical meaning of common everyday phrases ”p percent larger” and ”p percent smaller.” Despite these being common ways to make comparisons, even many adults struggle to accurately understand their precise meaning.</description>
-    <pubDate>Fri, 22 Aug 2025 22:21:08 GMT</pubDate>
+    <pubDate>Fri, 22 Aug 2025 22:41:19 GMT</pubDate>
   </item><item>
     <title>Remainder Theorem</title>
     <link>https://www.trevorkafka.com/Remainder-Theorem</link>
     <guid>https://www.trevorkafka.com/Remainder-Theorem</guid>
     <description>The remainder theorem is a theorem that looks incredibly simple but has profound time-saving implications in the context of the analysis of polynomials and their factors.</description>
     <pubDate>Fri, 22 Aug 2025 21:56:04 GMT</pubDate>
-  </item><item>
-    <title>Probability Through Counting</title>
-    <link>https://www.trevorkafka.com/Problems--and--Solutions/Probability-Through-Counting</link>
-    <guid>https://www.trevorkafka.com/Problems--and--Solutions/Probability-Through-Counting</guid>
-    <description>Lots of problems in probability are really problems in creative counting.</description>
-    <pubDate>Fri, 22 Aug 2025 21:51:44 GMT</pubDate>
   </item><item>
     <title>Quadratic Equations</title>
     <link>https://www.trevorkafka.com/Quadratic-Equations</link>
@@ -59,12 +65,6 @@
     <guid>https://www.trevorkafka.com/Arithmetic-Sequences</guid>
     <description>An arithmetic sequence is a sequence of numbers such that the difference between every term and the term that came before it is the same.</description>
     <pubDate>Tue, 05 Aug 2025 18:40:28 GMT</pubDate>
-  </item><item>
-    <title>Determinants</title>
-    <link>https://www.trevorkafka.com/Determinants</link>
-    <guid>https://www.trevorkafka.com/Determinants</guid>
-    <description> This topic is sometimes not covered in precalculus classes. It is more often included as a part of a linear algebra class covered in college.</description>
-    <pubDate>Tue, 05 Aug 2025 18:33:47 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -99,3 +99,17 @@ For example, if we say "$A$ is $40\%$ smaller than $B$," we mean that $A = (1 - 
 >- $B$ is $0\%$ larger than $A$
 >
 >In such a case, *any* values of $A$ and $B$ such that $\boxed{A = B}$ will do.
+
+>[!question] Problem 4
+>A T-shirt is on sale at a 15% discount. The original price is therefore what percentage larger than the sale price? Hint: the answer is *not* 15%.
+
+>[!check]- Solution 4
+> Let the original price of the T-shirt be $x.$ The discounted price is thus $x(1 - \frac{15}{100}) = .85x$. We seek to determine the value of $p$ such that $x$ is $p$ percent larger than $.85x.$ As an equation, this reads as follows.
+>  $$
+> \begin{gather*}
+> \cancel x = \left(1 + \frac{p}{100} \right) .85 \cancel x \\
+> \frac{1}{.85} = 1 + \frac{p}{100} \\
+> p = 100 \left( \frac{1}{.85} - 1 \right) = 17.64705882 \ldots
+> \end{gather*}
+> $$
+> Hence, the original price of the shirt is roughly $\boxed{17.65\%}$ larger than the discounted price.

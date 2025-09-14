@@ -1,6 +1,8 @@
 ---
 tags:
   - algebra-1
+aliases:
+  - "021973"
 ---
 
 The **zero product property** is an extremely important property that helps split up complicated equations into simpler ones. In order to apply the zero product property, one side of your equation must be a product of factors and the other side of the equation must be zero.
