@@ -16,7 +16,7 @@ This article is dedicated to the precise mathematical meaning of common everyday
 >A = \left( 1 + \frac{p}{100} \right) B.
 >$$
 
-For example, if we say "$A$ is $40\%$ larger than $B$," we mean that $A = (1 + \frac{40}{100}).$ Put more simply, $A = 1.4B$. To illustrate,
+For example, if we say "$A$ is $40\%$ larger than $B$," we mean that $A = (1 + \frac{40}{100})B.$ Put more simply, $A = 1.4B$. To illustrate,
 
 - $A = 140$ is $40\%$ larger than $B = 100$ because $140 = 1.4 \cdot 100$ and
 - $A = 50.4$ is $40\%$ larger than $B = 36$ because $50.5 = 1.4 \cdot 36.$
@@ -41,7 +41,7 @@ For example, if we say "$A$ is $40\%$ larger than $B$," we mean that $A = (1 + \
 >A = \left( 1 - \frac{p}{100} \right) B.
 >$$
 
-For example, if we say "$A$ is $40\%$ smaller than $B$," we mean that $A = (1 - \frac{40}{100}).$ Put more simply, $A = 0.6 B$. To illustrate,
+For example, if we say "$A$ is $40\%$ smaller than $B$," we mean that $A = (1 - \frac{40}{100})B.$ Put more simply, $A = 0.6 B$. To illustrate,
 
 - $A = 60$ is $40\%$ smaller than $B = 100$ because $60 = 0.6 \cdot 100$ and
 - $A = 21.6$ is $40\%$ smaller than $B = 36$ because $21.6 = 0.6 \cdot 36.$
