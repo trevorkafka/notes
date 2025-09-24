@@ -70,7 +70,7 @@ The dot product can also be *very conveniently* computed in terms of the two-dim
 > \vec{\mathbf a} \cdot \vec{\mathbf b} = a_x b_x + a_y b_y
 > $$
 
-This can be proven in two-dimensions using the [[Trigonometric Sum and Difference Formulas|cosine of a difference formula]]. A more detailed explanation of this will be added to this article at a future point.
+This can be proven in two-dimensions using the [[Trigonometric Identities|cosine of a difference formula]]. A more detailed explanation of this will be added to this article at a future point.
 
 ## Practice Problems
 

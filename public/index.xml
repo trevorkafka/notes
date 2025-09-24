@@ -6,65 +6,23 @@
       <description>Last 10 notes on Trevor&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Calc Reference - Antiderivatives</title>
-    <link>https://www.trevorkafka.com/Calc-Reference---Antiderivatives</link>
-    <guid>https://www.trevorkafka.com/Calc-Reference---Antiderivatives</guid>
-    <description>See also Calc Reference - Derivatives. Basic Functions Let a be an arbitrary constant.</description>
-    <pubDate>Wed, 24 Sep 2025 19:05:38 GMT</pubDate>
-  </item><item>
-    <title>Calc Reference - Derivatives</title>
-    <link>https://www.trevorkafka.com/Calc-Reference---Derivatives</link>
-    <guid>https://www.trevorkafka.com/Calc-Reference---Derivatives</guid>
-    <description>See also Calc Reference - Antiderivatives. Basic Functions Let a be an arbitrary constant.</description>
-    <pubDate>Wed, 24 Sep 2025 18:59:03 GMT</pubDate>
-  </item><item>
-    <title>Percentage Increase &amp; Decrease</title>
-    <link>https://www.trevorkafka.com/Percentage-Increase--and--Decrease</link>
-    <guid>https://www.trevorkafka.com/Percentage-Increase--and--Decrease</guid>
-    <description>This article is dedicated to the precise mathematical meaning of common everyday phrases ”p percent larger” and ”p percent smaller.” Despite these being common ways to make comparisons, even many adults struggle to accurately understand their precise meaning.</description>
-    <pubDate>Sun, 14 Sep 2025 18:48:13 GMT</pubDate>
-  </item><item>
-    <title>Zero Product Property</title>
-    <link>https://www.trevorkafka.com/Zero-Product-Property</link>
-    <guid>https://www.trevorkafka.com/Zero-Product-Property</guid>
-    <description>The zero product property is an extremely important property that helps split up complicated equations into simpler ones.</description>
-    <pubDate>Sun, 14 Sep 2025 18:48:13 GMT</pubDate>
-  </item><item>
     <title>Probability Through Counting</title>
     <link>https://www.trevorkafka.com/Problems--and--Solutions/Probability-Through-Counting</link>
     <guid>https://www.trevorkafka.com/Problems--and--Solutions/Probability-Through-Counting</guid>
     <description>Lots of problems in probability are really problems in creative counting.</description>
     <pubDate>Fri, 22 Aug 2025 22:41:24 GMT</pubDate>
   </item><item>
-    <title>Circles</title>
-    <link>https://www.trevorkafka.com/Circles</link>
-    <guid>https://www.trevorkafka.com/Circles</guid>
-    <description>A circle is a set of points in a plane that are at a fixed distance away from a chosen point, called the center of the circle.</description>
-    <pubDate>Fri, 22 Aug 2025 22:41:19 GMT</pubDate>
+    <title>Arithmetic Sequences</title>
+    <link>https://www.trevorkafka.com/Arithmetic-Sequences</link>
+    <guid>https://www.trevorkafka.com/Arithmetic-Sequences</guid>
+    <description>An arithmetic sequence is a sequence of numbers such that the difference between every term and the term that came before it is the same.</description>
+    <pubDate>Tue, 05 Aug 2025 18:40:28 GMT</pubDate>
   </item><item>
-    <title>Remainder Theorem</title>
-    <link>https://www.trevorkafka.com/Remainder-Theorem</link>
-    <guid>https://www.trevorkafka.com/Remainder-Theorem</guid>
-    <description>The remainder theorem is a theorem that looks incredibly simple but has profound time-saving implications in the context of the analysis of polynomials and their factors.</description>
-    <pubDate>Fri, 22 Aug 2025 21:56:04 GMT</pubDate>
-  </item><item>
-    <title>Quadratic Equations</title>
-    <link>https://www.trevorkafka.com/Quadratic-Equations</link>
-    <guid>https://www.trevorkafka.com/Quadratic-Equations</guid>
-    <description>Below is the basic definition of a quadratic equation.</description>
-    <pubDate>Fri, 22 Aug 2025 21:51:40 GMT</pubDate>
-  </item><item>
-    <title>Quadratic Functions - Three Forms</title>
-    <link>https://www.trevorkafka.com/Quadratic-Functions---Three-Forms</link>
-    <guid>https://www.trevorkafka.com/Quadratic-Functions---Three-Forms</guid>
-    <description>The Three Forms of Quadratic Functions There are three main important forms that quadratic functions can be written in.</description>
-    <pubDate>Wed, 20 Aug 2025 17:31:38 GMT</pubDate>
-  </item><item>
-    <title>Equations of Lines</title>
-    <link>https://www.trevorkafka.com/Equations-of-Lines</link>
-    <guid>https://www.trevorkafka.com/Equations-of-Lines</guid>
-    <description>Various equations can form a line in the xy plane when graphed.</description>
-    <pubDate>Mon, 11 Aug 2025 15:00:09 GMT</pubDate>
+    <title>Vectors</title>
+    <link>https://www.trevorkafka.com/Problems--and--Solutions/Vectors</link>
+    <guid>https://www.trevorkafka.com/Problems--and--Solutions/Vectors</guid>
+    <description>Problems titled “Giancoli” are sourced from Physics: Principles with Applications by Giancoli.</description>
+    <pubDate>Tue, 22 Jul 2025 14:28:55 GMT</pubDate>
   </item>
     </channel>
   </rss>
