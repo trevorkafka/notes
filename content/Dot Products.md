@@ -230,7 +230,7 @@ Notice how elegantly this extends the two-dimensional formula into three dimensi
 
 The projection of $\vec{\mathbf a}$ on $\vec{\mathbf b}$, denoted $\text{proj}_{\vec{\mathbf b}} \vec{\mathbf a}$ is the component of $\vec{\mathbf a}$ in the direction of $\vec{\mathbf b}$.
 
-<span class="invert">![[attachments/Drawboard-PDF-Annotation-Copy 4.png]]</span>
+<span class="invert">![[Drawboard-PDF-Annotation-Copy 4.png]]</span>
 
 The projection of a vector $\vec{\mathbf a}$ on a second vector $\vec{\mathbf b}$, denoted as $\text{proj}_{\vec{\mathbf b}} \vec{\mathbf a}$, can be found through a dot product by means of the following formula.
 
@@ -271,7 +271,7 @@ The projection of a vector $\vec{\mathbf a}$ on a second vector $\vec{\mathbf b}
 >[!check]- Solution 2 Method 1
 > Based on the definition of $\vec{\mathbf u}$, we have that $\vec{\mathbf a} = \vec{\mathbf u} + \text{proj}_{\vec{\mathbf b}} \vec{\mathbf a}.$ This means that $\vec{\mathbf u}$ can be included in a vector diagram with $\vec{\mathbf a},$ $\vec{\mathbf b},$ and $\text{proj}_{\vec{\mathbf b}} \vec{\mathbf a}$ as follows.
 > 
-> <span class="invert">![[attachments/Drawboard-PDF-Annotation-Copy 5.png]]</span>
+> <span class="invert">![[Drawboard-PDF-Annotation-Copy 5.png]]</span>
 > 
 > From this diagram, it is clear that $\vec{\mathbf u} \perp \vec{\mathbf b}.$
 

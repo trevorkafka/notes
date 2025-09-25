@@ -14,7 +14,7 @@ aliases:
 
 >[!example] Example 1 - determinant of $1$
 >If $M$ is a matrix whose corresponding linear transformation is a rotation, then $\boxed{ \det M = 1 }$, since rotations preserve area and do not cause mirroring.
-><span class="invert">![[attachments/Drawboard-PDF-Annotation-Copy 6.png]]</span>
+><span class="invert">![[Drawboard-PDF-Annotation-Copy 6.png]]</span>
 
 >[!example] Example 2 - a negative determinant
 >If $M$ is a matrix whose corresponding linear transformation is a reflection across the $x$-axis, then $\boxed{ \det M = -1 }$, since reflections preserve area but do cause mirroring.

@@ -15,7 +15,7 @@ The volume of a **prism** can be found by multiplying the base area of the prism
 
 >[!caution] The height $h$ must be measured perpendicular to the base of area $A$ in order for this formula to be valid.
 
-<span class="invert">![[attachments/Drawboard-PDF-Annotation-Copy.png]]</span>
+<span class="invert">![[quartz/content/attachments/Drawboard-PDF-Annotation-Copy.png]]</span>
 
 Yes, both of the figures above indeed have the *same volume* given by the *same formula* $V = Ah$. This initially puzzling fact regarding equal volumes has gained enough notoriety among mathematicians to warrant its own name: **Cavalieri's principle**. 
 
@@ -39,7 +39,7 @@ The volume of a **pyramid** can be found by computing *one third of* the product
 
 >[!caution] The height $h$ must be measured perpendicular to the base of area $A$ in order for this formula to be valid.
 
-<span class="invert">![[attachments/Drawboard-PDF-Annotation-Copy 2.png]]</span>
+<span class="invert">![[Drawboard-PDF-Annotation-Copy 2.png]]</span>
 
 Students who have completed their first calculus course should be able to derive this formula by performing an appropriate volume of revolution integral.
 
@@ -59,6 +59,6 @@ The volume of a **sphere** with radius $r$ is given by the formula below.
 >V = \frac{4}{3}\pi r^3
 >$$
 
-<span class="invert">![[attachments/Drawboard-PDF-Annotation-Copy 3.png]]</span>
+<span class="invert">![[Drawboard-PDF-Annotation-Copy 3.png]]</span>
 
 Students who have completed their first calculus course should be able to derive this formula by performing an appropriate volume of revolution integral.

@@ -96,7 +96,7 @@ Problems titled "Giancoli" are sourced from *Physics: Principles with Applicatio
 >
 > Let's begin by labeling the velocity vectors identified in the hint. In the paragraph below the image I will describe how I computed the value of $\theta$.
 > 
-> <span class="invert">![[Drawboard-PDF-Annotation-Copy.png]]</span>
+> <span class="invert">![[Drawboard-PDF-Annotation-Copy 10.png]]</span>
 > 
 > Note that the vector $\vec{\mathbf v}_\text{bg}$ points directly from the start point to the finish point. The angle $\theta$ between this vector is computable by identifying its opposite and adjacent sides in the right triangle formed by the dotted lines and using the $\arctan$ function.
 > $$
@@ -109,15 +109,15 @@ Problems titled "Giancoli" are sourced from *Physics: Principles with Applicatio
 > 
 > Here's a sketch of these three vectors with a shared origin.
 > 
-> <span class="invert">![[Drawboard-PDF-Annotation-Copy 1.png]]</span>
+> <span class="invert">![[Drawboard-PDF-Annotation-Copy 1 1.png]]</span>
 > 
 > Next, let's arrange them into a tip-to-tail diagram in accordance with the relationship $\vec {\mathbf v}_\text{bw} + \vec {\mathbf v}_\text{wg} = \vec {\mathbf v}_\text{bg}.$
 > 
-> <span class="invert">![[Drawboard-PDF-Annotation-Copy 2.png]]</span>
+> <span class="invert">![[Drawboard-PDF-Annotation-Copy 2 1.png]]</span>
 > 
 > Finally, let's break down the diagonal vectors ($\vec {\mathbf v}_\text{bw}$ and $\vec {\mathbf v}_\text{bg}$) into components and also get rid of the vector arrows for simplicity. I also went ahead and labeled the components themselves in terms of the hypotenuses of their respective right triangles by using the $\sin$ and $\cos$ functions.
 > 
-> <span class="invert">![[Drawboard-PDF-Annotation-Copy 3.png]]</span>
+> <span class="invert">![[Drawboard-PDF-Annotation-Copy 3 1.png]]</span>
 > 
 > Remember, $\theta$ is already known (see above), so there are only two unknowns: $v_\text{bg}$ and $v_\text{wg}$. The question asks us to find $v_\text{wg}$. So, we will use the diagram to write a system of two equations and eliminate $v_\text{bg}$ in order to solve for $v_{wg}$.
 > 
@@ -155,7 +155,7 @@ Problems titled "Giancoli" are sourced from *Physics: Principles with Applicatio
 >
 > (a) $\vec V_1$ and $\vec V_2$ point in the same direction. This is easily seen through the tip-to-tail diagram below.
 > 
-> <span class="invert">![[Drawboard-PDF-Annotation-Copy 5.png]]</span>
+> <span class="invert">![[Drawboard-PDF-Annotation-Copy 5 1.png]]</span>
 > 
 >>[!note] Note
 >>
@@ -163,6 +163,6 @@ Problems titled "Giancoli" are sourced from *Physics: Principles with Applicatio
 > 
 > (b) $\vec V_1$ and $\vec V_2$ are perpendicular to each other. This guarantees that the Pythagorean theorem can be applied to the tip-to-tail diagram representing the sum $\vec V_R = \vec V_1 + \vec V_2,$ as shown in the diagram below.
 > 
-> <span class="invert">![[Drawboard-PDF-Annotation-Copy 6.png]]</span>
+> <span class="invert">![[Drawboard-PDF-Annotation-Copy 6 1.png]]</span>
 > 
 > (c) Subtracting $V_1$ from both sides of $V_1 + V_2 = V_1 - V_2$ gives $V_2 = - V_2$, which hence implies $V_2 = 0$. This therefore means that $\vec V_2$ must have zero length (the magnitude of $\vec V_2$ must be zero).
