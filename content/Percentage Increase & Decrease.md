@@ -91,7 +91,7 @@ For example, if we say "$A$ is $40\%$ smaller than $B$," we mean that $A = (1 - 
 	}
 	
 	.answer-space {
-	  border-bottom: solid 1px black;
+	  border-bottom: solid 1px var(--darkgray);
 	}
 	
 	.answer-box {
@@ -107,34 +107,39 @@ For example, if we say "$A$ is $40\%$ smaller than $B$," we mean that $A = (1 - 
 	  opacity: 0;
 	  transition: opacity 0.2s ease;
 	}
+
+	.question-box: {
+	  padding-left: 10px;
+	  display: inline-block;
+	}
 	
-	.answer-box:hover > .answer-text {
+	.question-box:hover .answer-text {
 	  opacity: 1;
 	}
 </style>
 
 <span class="desktop">Hover over</span> <span class="mobile">Tap on</span> any blank space to see the answer.
 
-1. 390 is 95\% larger than <span class="answer-space"><span class="answer-box"><span class="answer-text">200</span></span></span>.
-2. 52 is <span class="answer-space"><span class="answer-box"><span class="answer-text">4</span></span></span>\% larger than 50.
-3. <span class="answer-space"><span class="answer-box"><span class="answer-text">81</span></span></span> is 80\% larger than 45.
-4. 39 is <span class="answer-space"><span class="answer-box"><span class="answer-text">56</span></span></span>\% larger than 25.
-5. <span class="answer-space"><span class="answer-box"><span class="answer-text">66</span></span></span> is 32\% larger than 50.
-6. 108 is 20\% larger than <span class="answer-space"><span class="answer-box"><span class="answer-text">90</span></span></span>.
-7. 125 is 25\% larger than <span class="answer-space"><span class="answer-box"><span class="answer-text">100</span></span></span>.
-8. <span class="answer-space"><span class="answer-box"><span class="answer-text">63</span></span></span> is 75\% larger than 36.
-9. <span class="answer-space"><span class="answer-box"><span class="answer-text">84</span></span></span> is 50\% larger than 56.
-10. 99 is <span class="answer-space"><span class="answer-box"><span class="answer-text">50</span></span></span>\% larger than 66.
-11. 80 is 20\% smaller than <span class="answer-space"><span class="answer-box"><span class="answer-text">100</span></span></span>.
-12. 30 is 76\% smaller than <span class="answer-space"><span class="answer-box"><span class="answer-text">125</span></span></span>.
-13. 144 is 10\% smaller than <span class="answer-space"><span class="answer-box"><span class="answer-text">160</span></span></span>.
-14. <span class="answer-space"><span class="answer-box"><span class="answer-text">6</span></span></span> is 94\% smaller than 100.
-15. <span class="answer-space"><span class="answer-box"><span class="answer-text">72</span></span></span> is 20\% smaller than 90.
-16. 3 is <span class="answer-space"><span class="answer-box"><span class="answer-text">97</span></span></span>\% smaller than 100.
-17. 51 is <span class="answer-space"><span class="answer-box"><span class="answer-text">32</span></span></span>\% smaller than 75.
-18. <span class="answer-space"><span class="answer-box"><span class="answer-text">3</span></span></span> is 85\% smaller than 20.
-19. 90 is <span class="answer-space"><span class="answer-box"><span class="answer-text">40</span></span></span>\% smaller than 150.
-20. 196 is <span class="answer-space"><span class="answer-box"><span class="answer-text">2</span></span></span>\% smaller than 200.
+1. <span class="question-box">390 is 95\% larger than <span class="answer-space"><span class="answer-box"><span class="answer-text">200</span></span></span>.</span>
+2. <span class="question-box">52 is <span class="answer-space"><span class="answer-box"><span class="answer-text">4</span></span></span>\% larger than 50.</span>
+3. <span class="question-box"><span class="answer-space"><span class="answer-box"><span class="answer-text">81</span></span></span> is 80\% larger than 45.</span>
+4. <span class="question-box">39 is <span class="answer-space"><span class="answer-box"><span class="answer-text">56</span></span></span>\% larger than 25.</span>
+5. <span class="question-box"><span class="answer-space"><span class="answer-box"><span class="answer-text">66</span></span></span> is 32\% larger than 50.</span>
+6. <span class="question-box">108 is 20\% larger than <span class="answer-space"><span class="answer-box"><span class="answer-text">90</span></span></span>.</span>
+7. <span class="question-box">125 is 25\% larger than <span class="answer-space"><span class="answer-box"><span class="answer-text">100</span></span></span>.</span>
+8. <span class="question-box"><span class="answer-space"><span class="answer-box"><span class="answer-text">63</span></span></span> is 75\% larger than 36.</span>
+9. <span class="question-box"><span class="answer-space"><span class="answer-box"><span class="answer-text">84</span></span></span> is 50\% larger than 56.</span>
+10. <span class="question-box">99 is <span class="answer-space"><span class="answer-box"><span class="answer-text">50</span></span></span>\% larger than 66.</span>
+11. <span class="question-box">80 is 20\% smaller than <span class="answer-space"><span class="answer-box"><span class="answer-text">100</span></span></span>.</span>
+12. <span class="question-box">30 is 76\% smaller than <span class="answer-space"><span class="answer-box"><span class="answer-text">125</span></span></span>.</span>
+13. <span class="question-box">144 is 10\% smaller than <span class="answer-space"><span class="answer-box"><span class="answer-text">160</span></span></span>.</span>
+14. <span class="question-box"><span class="answer-space"><span class="answer-box"><span class="answer-text">6</span></span></span> is 94\% smaller than 100.</span>
+15. <span class="question-box"><span class="answer-space"><span class="answer-box"><span class="answer-text">72</span></span></span> is 20\% smaller than 90.</span>
+16. <span class="question-box">3 is <span class="answer-space"><span class="answer-box"><span class="answer-text">97</span></span></span>\% smaller than 100.</span>
+17. <span class="question-box">51 is <span class="answer-space"><span class="answer-box"><span class="answer-text">32</span></span></span>\% smaller than 75.</span>
+18. <span class="question-box"><span class="answer-space"><span class="answer-box"><span class="answer-text">3</span></span></span> is 85\% smaller than 20.</span>
+19. <span class="question-box">90 is <span class="answer-space"><span class="answer-box"><span class="answer-text">40</span></span></span>\% smaller than 150.</span>
+20. <span class="question-box">196 is <span class="answer-space"><span class="answer-box"><span class="answer-text">2</span></span></span>\% smaller than 200.</span>
 # Practice Problems
 
 >[!question] Problem 1
