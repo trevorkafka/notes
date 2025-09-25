@@ -64,12 +64,12 @@ $$
 >The notation $\mp$ indicates that the sign here is taken to be opposite to the sign of $\pm$. For clarity, the formulas above really are a condensed version of the following six formulas.
 >$$
 >\begin{cases}
->\sin (A + B) = \sin A \cos B + \cos A \sin B \\
->\sin (A - B) = \sin A \cos B - \cos A \sin B \\
->\cos (A + B) = \cos A \cos B - \sin A \sin B \\
->\sin (A - B) = \cos A \cos B + \sin A \sin B \\
->\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B} \\
->\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}
+>\sin (\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta \\
+>\sin (\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta \\
+>\cos (\alpha + \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta \\
+>\sin (\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta \\
+>\tan(\alpha + \beta) = \dfrac{\tan \alpha + \tan \beta}{1 - \tan \alpha \tan \beta} \\
+>\tan(\alpha - \beta) = \dfrac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
 >\end{cases}
 >$$
 
