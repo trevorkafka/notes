@@ -39,12 +39,38 @@ $$
 &\int \csc x \cot x\ dx &&= - \csc x + C \\
 \end{align*}
 $$
-## Inverse Trigonometric Functions
+### Inverse Trigonometric Functions
 
 $$
 \begin{align*}
 &\int \frac{1}{\sqrt{1 - x^2}}\ dx &&= \arcsin x + C \\
-&\int \frac{1}{x^2 + 1}\ dx &&= \arctan x + C
+&\int \frac{1}{x^2 + 1}\ dx &&= \arctan x + C \\
+&\int \frac{1}{x\sqrt{x^2 - 1}}\ dx &&= \begin{cases} \hphantom{-} \text{arcsec } x + C & \text{if } x> 0 \\ - \text{arcsec } x + C& \text{if } x< 0 \end{cases}
+\end{align*}
+$$
+## Hyperbolic Trigonometric Functions
+Most calculus courses, including AP Calculus, do *not* cover these functions. You can ignore these if they are outside the scope of your class.
+$$
+\begin{align*}
+&\int \sinh x\ dx &&= \cosh x + C\\
+&\int \cosh x\ dx &&= \sinh x + C\\
+&\int \tanh x\ dx &&= \ln|\cosh x| + C \\
+&\int \text{coth } x\ dx &&= \ln|\sinh x| + C \\
+&\int \text{sech}^2\ x\ dx &&= \tanh x + C\\
+&\int \text{csch}^2\ x\ dx &&= -\text{coth } x + C\\
+&\int \text{sech } x \tanh x\ dx &&= -\text{sech } x + C \\
+&\int \text{csch } x\ \text{coth }x\ dx &&= -\text{csch } x + C
+\end{align*}
+$$
+### Inverse Hyperbolic Trigonometric Functions
+Most calculus courses, including AP Calculus, do *not* cover these functions. You can ignore these if they are outside the scope of your class.
+$$
+\begin{align*}
+&\int \frac{1}{\sqrt{x^2+1}}\ dx &&= \text{arcsinh } x + C \\
+&\int \frac{1}{\sqrt{x^2-1}}\ dx &&= \text{arccosh } x + C \\
+&\int \frac{1}{1-x^2}\ dx &&= \text{arctanh } x + C \\
+&\int \frac{1}{x\sqrt{1-x^2}}\ dx &&= -\text{arcsech } x + C \\
+&\int \frac{1}{x\sqrt{1+x^2}}\ dx &&= \begin{cases} -\text{arccsch } x + C & \text{if } x > 0 \\ \hphantom{-} \text{arccsch } x + C & \text{if } x < 0 \end{cases}
 \end{align*}
 $$
 # General Properties and Function Combinations

@@ -73,7 +73,7 @@ $$
 >\end{cases}
 >$$
 
-# Double Angle Formulas
+# Double-Angle Formulas
 $$
 \begin{align*}
 \sin 2 \theta &= 2 \sin \theta \cos \theta \\

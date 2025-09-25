@@ -36,7 +36,7 @@ $$
 &\frac{d}{dx} \csc x &&= - \csc x \cot x
 \end{align*}
 $$
-## Inverse Trigonometric Functions
+### Inverse Trigonometric Functions
 Out of this list, the most important to remember are the formulas for the derivatives of $\arcsin$ and $\arctan$.
 $$
 \begin{align*}
@@ -44,8 +44,32 @@ $$
 &\frac{d}{dx} \arccos x &&= - \frac{1}{\sqrt{1 - x^2}} \\
 &\frac{d}{dx} \arctan x &&= \frac{1}{x^2 + 1} \\
 &\frac{d}{dx} \text{arccot } x &&= - \frac{1}{x^2 + 1} \\
-&\frac{d}{dx} \text{arcsec } x &&=  \frac{1}{|x|\sqrt{x^2 - 1}}\\
+&\frac{d}{dx} \text{arcsec } x &&=  [\frac{1}{|x|\sqrt{x^2 - 1}}]()\\
 &\frac{d}{dx} \text{arccsc } x &&= - \frac{1}{|x|\sqrt{x^2 - 1}}
+\end{align*}
+$$
+## Hyperbolic Trigonometric Functions
+Most calculus courses, including AP Calculus, do *not* cover these functions. You can ignore these if they are outside the scope of your class.
+$$
+\begin{align*}
+&\frac{d}{dx} \sinh x &&= \cosh x \\
+&\frac{d}{dx} \cosh x &&= \sinh x \\
+&\frac{d}{dx} \tanh x &&= \text{sech}^2 x \\
+&\frac{d}{dx} \text{coth } x &&= -\text{csch}^2 x \\
+&\frac{d}{dx} \text{sech } x &&= -\text{sech } x \tanh x \\
+&\frac{d}{dx} \text{csch } x &&= -\text{csch } x\ \text{coth }x
+\end{align*}
+$$
+### Inverse Hyperbolic Trigonometric Functions
+Most calculus courses, including AP Calculus, do *not* cover these functions. You can ignore these if they are outside the scope of your class.
+$$
+\begin{align*}
+&\frac{d}{dx} \text{arcsinh } x &&= \frac{1}{\sqrt{x^2+1}} \\
+&\frac{d}{dx} \text{arccosh } x &&= \frac{1}{\sqrt{x^2-1}} \\
+&\frac{d}{dx} \text{arctanh } x &&= \frac{1}{1-x^2} \\
+&\frac{d}{dx} \text{arccoth } x &&= \frac{1}{1-x^2} \\
+&\frac{d}{dx} \text{arcsech } x &&= -\frac{1}{x\sqrt{1-x^2}} \\
+&\frac{d}{dx} \text{arccsch } x &&= -\frac{1}{|x|\sqrt{1+x^2}}
 \end{align*}
 $$
 # General Properties and Function Combinations
