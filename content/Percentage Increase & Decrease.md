@@ -118,7 +118,7 @@ For example, if we say "$A$ is $40\%$ smaller than $B$," we mean that $A = (1 - 
 	}
 </style>
 
-<span class="desktop">Hover over</span> <span class="mobile">Tap on</span> any blank space to see the answer.
+<span class="desktop">Hover over</span> <span class="mobile">Tap on</span> any question to see the answer.
 
 1. <span class="question-box">390 is 95\% larger than <span class="answer-space"><span class="answer-box"><span class="answer-text">200</span></span></span>.</span>
 2. <span class="question-box">52 is <span class="answer-space"><span class="answer-box"><span class="answer-text">4</span></span></span>\% larger than 50.</span>
@@ -140,6 +140,7 @@ For example, if we say "$A$ is $40\%$ smaller than $B$," we mean that $A = (1 - 
 18. <span class="question-box"><span class="answer-space"><span class="answer-box"><span class="answer-text">3</span></span></span> is 85\% smaller than 20.</span>
 19. <span class="question-box">90 is <span class="answer-space"><span class="answer-box"><span class="answer-text">40</span></span></span>\% smaller than 150.</span>
 20. <span class="question-box">196 is <span class="answer-space"><span class="answer-box"><span class="answer-text">2</span></span></span>\% smaller than 200.</span>
+
 # Practice Problems
 
 >[!question] Problem 1
