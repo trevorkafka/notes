@@ -12,13 +12,24 @@ There are three main important forms that quadratic functions can be written in.
 - $a > 0$ concave-up parabola
 - $a < 0$ concave-down parabola
 
-Each form makes it easy to determine particular features of the single shared graph.
+Each form makes it easy to determine particular features of the single shared graph. This is summarized below.
 
-| Form     | Equation                | Easy to determine...                                    |
-| -------- | ----------------------- | ------------------------------------------------------- |
-| Standard | $y = ax^2 + bx + c$     | $y$ intercept $(0,c)$ and<br>slope at $y$ intercept $b$ |
-| Factored | $y = a(x - x_1)(x-x_2)$ | $x$ intercepts $x_1$ and $x_2$                          |
-| Vertex   | $y = a(x-h)^2+k$        | coordinates of the vertex $(h,k)$                       |
+## Standard Form
+$$
+y = ax^2 + bx + c
+$$
+This is the form in which it is easiest to determine the $y$-intercept $(0,c)$ and the slope of the graph at this intercept $b$.
+## Factored Form
+$$
+y = a(x-x_1)(x-x_2)
+$$
+This is the form in which it is easiest to determine the $x$-intercepts $(x_1,0)$ and $(x_2,0)$, should such values exist.
+
+## Vertex Form
+$$
+y = a(x-h)^2 + c
+$$
+This is the form in which it is easiest to determine the coordinates of the vertex $(h,k)$. The vertex is also the point of minimum $y$ value if the parabola is concave-up ($a > 0$). Similarly, the vertex is also the point of maximum $y$ value if the parabola is concave-down ($a < 0$).
 
 # Converting Between Forms
 
@@ -26,7 +37,9 @@ Both factored form and vertex form can be converted to standard form most easily
 
 ## Converting from Standard Form to Factored Form
 
-If the standard form quadratic $y = ax^2 + bx + c$ can be easily factored by hand using standard techniques, go ahead and factor it by hand. However, there are often situations where quadratic expressions are too difficult to factor by hand. In those situations, use the quadratic formula to determine the values of $x_1$ and $x_2$ in order to write the factored form (these represent the $x$ intercepts).
+If the standard form quadratic $y = ax^2 + bx + c$ can be easily factored by hand using standard techniques, go ahead and factor it by hand. 
+
+However, there are often situations where quadratic expressions are too difficult to factor by hand. In those situations, use the quadratic formula to determine the values of $x_1$ and $x_2$ in order to write the factored form (these represent the $x$ intercepts).
 
 >[!note] Quadradic Formula (formula for finding the $x$ intercepts $x_1$ and $x_2$ from standard form)
 >$$

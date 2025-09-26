@@ -6,14 +6,16 @@ tags:
 aliases:
   - "815291"
 ---
+See also [[Calc Reference - Derivatives]].
+
 Let $\theta$ (theta), $\alpha$ (alpha), and $\beta$ (beta) be arbitrary angles (see [[Greek letters]]).
 # Basic Relationships
 
 $$
 \begin{align*}
-\tan \theta &= \frac{\sin \theta}{\cos \theta} = \frac{1}{\cot \theta} &\text{(tangent)} \\
-\cot \theta &= \frac{\cos \theta}{\sin \theta} = \frac{1}{\tan \theta} &\text{(cotangent)} \\
-\sec \theta &= \frac{1}{\cos \theta} &\text{(secant)} \\
+\tan \theta &= \frac{\sin \theta}{\cos \theta} = \frac{1}{\cot \theta} &\text{(tangent)} \\[0.5em]
+\cot \theta &= \frac{\cos \theta}{\sin \theta} = \frac{1}{\tan \theta} &\text{(cotangent)} \\[0.5em]
+\sec \theta &= \frac{1}{\cos \theta} &\text{(secant)} \\[0.5em]
 \csc \theta &= \frac{1}{\sec \theta} &\text{(cosecant)}
 \end{align*}
 $$
@@ -55,7 +57,7 @@ $$
 $$
 \begin{align*}
 \sin(\alpha \pm \beta) &= \sin \alpha \cos \beta \pm \cos \alpha \sin \beta \\
-\cos(\alpha \pm \beta) &= \cos \alpha \cos \beta \mp \sin \alpha \sin \beta \\
+\cos(\alpha \pm \beta) &= \cos \alpha \cos \beta \mp \sin \alpha \sin \beta \\[0.5em]
 \tan(\alpha \pm \beta) &= \frac{\tan \alpha \pm \tan \beta}{1 \mp \tan \alpha \tan \beta}
 \end{align*}
 $$
@@ -67,8 +69,8 @@ $$
 >\sin (\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta \\
 >\sin (\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta \\
 >\cos (\alpha + \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta \\
->\sin (\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta \\
->\tan(\alpha + \beta) = \dfrac{\tan \alpha + \tan \beta}{1 - \tan \alpha \tan \beta} \\
+>\sin (\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta \\[0.5em]
+>\tan(\alpha + \beta) = \dfrac{\tan \alpha + \tan \beta}{1 - \tan \alpha \tan \beta} \\[0.5em]
 >\tan(\alpha - \beta) = \dfrac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}
 >\end{cases}
 >$$
@@ -79,7 +81,7 @@ $$
 \sin 2 \theta &= 2 \sin \theta \cos \theta \\
 \cos 2 \theta &= \cos^2 \theta - \sin ^2 \theta \\
 &= 1 - 2 \sin^2 \theta \\
-&= 2 \cos^2 \theta - 1 \\
+&= 2 \cos^2 \theta - 1 \\[0.5em]
 \tan2\theta &= \frac{2 \tan \theta}{1 - \tan^2 \theta}
 \end{align*}
 $$
@@ -87,8 +89,8 @@ $$
 # Half-Angle Formulas
 $$
 \begin{gather*}
-\sin \frac{\theta}{2} = \pm \sqrt{\frac{1 - \cos \theta}{2}} \\
-\cos \frac{\theta}{2} = \pm \sqrt{\frac{1 + \cos \theta}{2}} \\
+\sin \frac{\theta}{2} = \pm \sqrt{\frac{1 - \cos \theta}{2}} \\[0.5em]
+\cos \frac{\theta}{2} = \pm \sqrt{\frac{1 + \cos \theta}{2}} \\[0.5em]
 \tan \frac{\theta}{2} = \pm \sqrt{\frac{1 - \cos \theta}{1 + \cos \theta}}
 \end{gather*}
 $$

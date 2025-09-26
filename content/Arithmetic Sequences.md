@@ -12,6 +12,7 @@ An **arithmetic** sequence is a sequence of numbers such that the difference bet
 | $3, 13, 23, 33, \ldots$ | $10$                  |
 | $16, 9, 2, -5,\ldots$   | $-7$                  |
 | $5, 5, 5, \ldots$       | $0$                   |
+
 The variable $d$ is often used to denote the common difference in an arithmetic sequence. Take note that by the examples above we can see that
 - If $d>0,$ then the sequence is increasing,
 - if $d<0,$ then the sequence is decreasing, and
