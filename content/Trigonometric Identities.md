@@ -6,7 +6,7 @@ tags:
 aliases:
   - "815291"
 ---
-See also [[Calc Reference - Derivatives]].
+See also [[Hyperbolic Identities]].
 
 Let $\theta$ (theta), $\alpha$ (alpha), and $\beta$ (beta) be arbitrary angles (see [[Greek letters]]).
 # Basic Relationships

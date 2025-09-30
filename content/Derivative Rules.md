@@ -7,7 +7,7 @@ tags:
 ---
 See also [[Hyperbolic Identities]].
 # Basic Functions
-Let $a$ be an arbitrary constant.
+Let $a$ and $n$ be an arbitrary constants.
 $$
 \begin{align*}
 &\frac{d}{dx} a &&= 0 \\

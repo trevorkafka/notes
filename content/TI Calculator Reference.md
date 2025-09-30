@@ -136,6 +136,10 @@ $$
 \boxed{x \approx \{ -0.1600154, -3.862009 \}}
 $$
 
+# Finding the Maximum/Minimum Value of a Function
+
+*Information coming soon!*
+
 [^1]: In order to input a cube root, click `MATH` and select `4:³√(`.
 
 [^2]: In the language of the calculator, `3ˣ√(x)` is the same as `³√(x)` which represents $\sqrt[3]{x}$. (This is an archaic notation that was carried through for purposes of displaying the necessary information when pixel space is limited.)

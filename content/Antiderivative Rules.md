@@ -5,13 +5,13 @@ tags:
   - reference-sheets
   - calculus
 ---
-See also [[Calc Reference - Derivatives]].
+See also [[Derivative Rules]].
 # Basic Functions
-Let $a$ be an arbitrary constant.
+Let $a$ and $n$ be an arbitrary constants.
 $$
 \begin{align*}
 &\int a\ dx &&= ax + C \\
-&\int x^n\ dx &&= \frac{1}{n+1}x^{n+1} + C & \text{(power rule)}
+&\int x^n\ dx &&= \frac{1}{n+1}\ x^{n+1} + C & \text{(power rule)}
 \end{align*}
 $$
 ## Exponential and Logarithmic Functions
@@ -19,8 +19,8 @@ Let $b$ be an arbitrary positive constant.
 $$
 \begin{align*}
 &\int e^x\ dx &&= e^x + C \\
-&\int b^x\ dx &&= \frac{1}{\ln b} b^x \\
-&\int \frac{1}{x}\ dx &&= \ln|x| &\text{for }x \neq 0
+&\int b^x\ dx &&= \frac{1}{\ln b}\ b^x + C \\
+&\int \frac{1}{x}\ dx &&= \ln|x| + C &\text{for }x \neq 0
 \end{align*}
 $$
 ## Trigonometric Functions

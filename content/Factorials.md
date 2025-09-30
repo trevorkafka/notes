@@ -82,7 +82,7 @@ This result is consistent with the results of the previous section, but raises t
 >$$
 >n! = \int_0^\infty x^n e^{-x}\ dx
 >$$
->**Remark:** Copy-paste the code `\int_0^\infty x^n e^{-x} dx` to compute values of this integral in Desmos. Don't forget to add a slider for $n$.
+>**Remark:** Copy-paste the code `\int_0^\infty x^n e^{-x} dx` to compute values of this integral in [Desmos](http://www.desmos.com/calculator). Don't forget to add a slider for $n$.
 
 (In textbooks, the Gamma function is often used instead of the above definition, but I'm omitting that explanation here because there is an annoying subtle difference between the Gamma function and the factorial that in my opinion has no practical value.)
 

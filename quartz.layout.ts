@@ -25,7 +25,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    Component.MobileOnly(Component.TableOfContents({ layout: "legacy", collapsed: true, })), // custom addition
+    Component.MobileOnly(Component.TableOfContents({ layout: "modern", class: "mobile-only"})), // custom addition
   ],
   left: [
     Component.PageTitle(),
@@ -44,8 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     // Component.Graph(),
-    // Component.DesktopOnly(Component.TableOfContents()),
-    Component.TableOfContents({ layout: "modern" }),
+    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
 }
