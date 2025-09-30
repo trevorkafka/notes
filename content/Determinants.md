@@ -12,7 +12,7 @@ aliases:
 >[!note] Conceptual Definition of a Determinant 
 >The **determinant** of a square matrix is a measure of the factor by which area (for $2\times2$ matrices), volume (for $3 \times 3$ matrices), etc. change under the matrix's associated linear transformation. If the image of the transformation is mirrored, then the determinant is defined to be negative. If the original square matrix is $M$, then the determinant of that matrix is denoted by $\det M$.
 
->[!example] Example 1 - determinant of $1$
+>[!example] Example 1 - determinant of a rotation matrix
 >If $M$ is a matrix whose corresponding linear transformation is a rotation, then $\boxed{ \det M = 1 }$, since rotations preserve area and do not cause mirroring.
 ><span class="invert">![[Drawboard-PDF-Annotation-Copy 6.png]]</span>
 

@@ -12,7 +12,7 @@ aliases:
 **Conic sections** are classes of curved shapes that may be formed by slicing a cone, which are
 1. [[Circles|circles]],
 2. ellipses,
-3. parabolas, and
+3. [[Quadratic Functions (Parabolas)|parabolas]], and
 4. hyperbolas,
 
 as shown in the figure below.

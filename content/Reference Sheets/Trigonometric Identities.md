@@ -3,6 +3,7 @@ tags:
   - trigonometry
   - algebra-2
   - precalc
+  - "#reference-sheets"
 aliases:
   - "815291"
 ---
