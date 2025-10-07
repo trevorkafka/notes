@@ -1,5 +1,6 @@
 ---
 aliases:
+  - "549490"
 tags:
   - SAT
   - reference-sheets
