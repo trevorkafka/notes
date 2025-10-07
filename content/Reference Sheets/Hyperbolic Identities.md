@@ -70,3 +70,4 @@ $$
 \tanh \frac{x}{2} = \pm \sqrt{ \frac{\cosh x - 1}{\cosh x + 1} }
 \end{gather*}
 $$
+

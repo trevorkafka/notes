@@ -3,6 +3,7 @@ tags:
   - physics-all
   - vectors
   - precalc
+  - "#problem-solving"
 aliases:
   - "377564"
 ---

@@ -6,7 +6,10 @@ aliases:
   - "620727"
 draft: false
 ---
-On this page I will provide some general guidance on how to use the **TI 83–84 calculators**' most important functionalities.
+On this page I will provide some general guidance on how to use the **TI-83 & TI-84 84 calculators**' most important functionalities.
+
+>[!Note] Note for SAT and AP exams
+>If you are taking a CollegeBoard exam (PSAT, SAT, AP, etc.), all assessments are now digital and now include access to the Desmos graphing and scientific calculators. **The Desmos calculators are much faster and more powerful than TI calculators and are recommended to use for these exams instead of the TI calculators for students that are familiar with them.** Familiarity with TI calculators can still be helpful for traditional school exams, though, so there skills are not totally obsolete (yet).
 
 >[!warning] This page is a continual work in progress and more features will be added as time goes on.
 

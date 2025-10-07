@@ -138,7 +138,7 @@ The number of terms between $a_k$ and $a_n$ can be computed as $N = n - k + 1.$ 
 >$$
 >\begin{gather*}
 >53 = -5 + 2(N-1) \\
->58 = 2 (N-1) & \text{add 2} \\
+>58 = 2 (N-1) & \text{add 5} \\
 >28 = N - 1 & \text{divide by 2} \\
 >N = 29 & \text{add 1}
 >\end{gather*}
