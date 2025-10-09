@@ -12,7 +12,7 @@ My name is **Trevor Kafka**, I am a math and physics tutor, and <span style="fon
 
 At the moment, the <span style="font-family: Freeman; font-size: 110%; font-style: italic">Trevor's Notes</span> project is **tiny**. Over time it will turn into a large collection of useful help pages. Click a link in the explorer in the left sidebar to browse articles. You can also view all pages on this site sorted by [tag](tags/).
 
-**Popular notes:** [[Quadratic Equations]], [[Vectors|Problems & Solutions: Vectors]], [[Combinations and Permutations]], [[Greek letters]], [[Dot Products]], [[Probability Through Counting|Problems and Solutions: Probability Through Counting]]
+**Popular notes:** [[Quadratic Equations]], [[Vectors|Problems & Solutions: Vectors]], [[Combinations and Permutations]], [[Greek letters]], [[Dot Products]]
 
 > [!important] Looking for notes and class materials from our tutoring sessions?
 > Please visit www.trevorkafka.com/mynotes in order to find your individual class notes from our tutoring sessions.
