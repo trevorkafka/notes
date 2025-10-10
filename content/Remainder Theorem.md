@@ -18,7 +18,7 @@ The **remainder theorem** is a theorem that looks incredibly simple but has prof
 >$$
 >which can be thought of as 
 >$$
->\text{divisor} = (\text{quotient}) \cdot (\text{dividend}) + \text{remainder}.
+>\text{numerator} = (\text{quotient}) \cdot (\text{denominator}) + \text{remainder}.
 >$$
 >All divisions can be formatted in this way, including polynomial divisions. So, in our context here, the quotient $q(x)$ and remainder $r$ of the division $p(x) \div (x -a)$ is related to $p(x)$ and $x-a$ as follows.
 >$$
@@ -140,4 +140,4 @@ Do not use polynomial division to solve any of the following problems (the remai
 >$$
 
 >[!check]- Solution 8
->Since $\frac{\text{dividend}}{\text{divisor}} = \text{quotient} + \frac{\text{remainder}}{\text{divisor}},$ the number $z$ is the remainder of the division $(x^3 + 2x - 1) \div (x + 2)$, so $z = (-2)^3 + 2(-2) - 1 = \boxed{-13}.$
+>Since $\frac{\text{numerator}}{\text{denominator}} = \text{quotient} + \frac{\text{remainder}}{\text{denominator}},$ the number $z$ is the remainder of the division $(x^3 + 2x - 1) \div (x + 2)$, so $z = (-2)^3 + 2(-2) - 1 = \boxed{-13}.$
