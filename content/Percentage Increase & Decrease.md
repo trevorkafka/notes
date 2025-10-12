@@ -19,7 +19,7 @@ This article is dedicated to the precise mathematical meaning of common everyday
 For example, if we say "$A$ is $40\%$ larger than $B$," we mean that $A = (1 + \frac{40}{100})B.$ Put more simply, $A = 1.4B$. To illustrate,
 
 - $A = 140$ is $40\%$ larger than $B = 100$ because $140 = 1.4 \cdot 100$ and
-- $A = 50.4$ is $40\%$ larger than $B = 36$ because $50.5 = 1.4 \cdot 36.$
+- $A = 50.4$ is $40\%$ larger than $B = 36$ because $50.4 = 1.4 \cdot 36.$
 
 >[!Example] Example
 >**Question:** $50$ is $31\%$ larger than what number?
