@@ -2,6 +2,9 @@
 tags:
   - reference-sheets
   - math-all
+  - "#physics-all"
+  - "#SAT"
+  - AP
 aliases:
   - "620727"
 draft: false

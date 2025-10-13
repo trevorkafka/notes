@@ -82,3 +82,11 @@ $$
 &\int f'(x)g(x)\ dx &&= f(x)g(x) - \int f(x)g'(x)\ dx &\text{(int. by parts)}
 \end{align*}
 $$
+If $f(x)$ is an even function and $a$ is an arbitrary constant, then
+$$
+\int_a^{-a} f(x)\ dx = 2 \int_0^a f(x)\ dx.
+$$
+If $f(x)$ is an odd function and $a$ is an arbitrary constant, then
+$$
+\int_{-a}^a f(x)\ dx = 0.
+$$
