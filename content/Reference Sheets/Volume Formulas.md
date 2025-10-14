@@ -13,7 +13,7 @@ The volume of a **prism** can be found by multiplying the base area of the prism
 >\boxed{V = Ah}
 >$$
 >
-><span class="invert">![[Drawboard-PDF-Annotation-Copy.png]]</span>
+><span class="invert">![[quartz/public/attachments/Drawboard-PDF-Annotation-Copy.png]]</span>
 
 >[!caution] The height $h$ must be measured perpendicular to the base of area $A$ in order for this formula to be valid.
 
