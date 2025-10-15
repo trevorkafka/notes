@@ -77,7 +77,7 @@ Problems are taken from *Calculus 10th ed.* by Larson, Section 7.5 (Work)
 >
 >Note: the density of water is $62.4\ \frac{\text{lb}}{\text{ft}^3}$.
 
-> [!check]- Solution 19d
+> [!check]- Solution 19
 > In the diagram, a cylindrical slice of water of thickness $\Delta y$ is highlighted. The [[Volume Formulas|volume]] of this slice of water is
 > $$
 > \Delta V = \pi r^2 \Delta y
