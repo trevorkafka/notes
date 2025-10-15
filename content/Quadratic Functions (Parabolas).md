@@ -27,7 +27,7 @@ This is the form in which it is easiest to determine the $x$-intercepts $(x_1,0)
 
 ## Vertex Form
 $$
-y = a(x-h)^2 + c
+y = a(x-h)^2 + k
 $$
 This is the form in which it is easiest to determine the coordinates of the vertex $(h,k)$. The vertex is also the point of minimum $y$ value if the parabola is concave-up ($a > 0$). Similarly, the vertex is also the point of maximum $y$ value if the parabola is concave-down ($a < 0$).
 
