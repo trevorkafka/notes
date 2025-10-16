@@ -64,11 +64,11 @@ $$
 >[!caution]
 >Students often accidentally write $+$ in these formulas as $-$. Remembering that we are dealing with average values when computing a midpoint can be helpful towards not making this mistake.
 # Slopes of Perpendicular Lines
-If two lines with slopes $m_1$ and $m_2$ are perpendicular, then
+If two lines with slopes $m_1$ and $m_2$ are perpendicular, then the slopes are negative reciprocals of each other
 $$
 m_1 = - \frac{1}{m_2}
 $$
-or equivalently
+or, equivalently,
 $$
 m_1 m_2 = -1.
 $$
@@ -88,26 +88,15 @@ There are three main forms of equations of lines that are useful to be familiar 
 - The line passes through the point $(h,k)$, which may be located anywhere in the $x$-$y$ plane.
 
 ## Conversion Shortcuts
-- **To determine the value of $b$ ($y$ intercept), plug in $x = 0$ and determine the resulting value of $b$**. Hence, for point-slope form, this would be $b = -mh+k$ and, for standard form, this would be $b = \frac{C}{B}.$
-- To determine the slope $m$ from standard form, solve for $y$ and simplify into slope-intercept form. The result is 
-  $$
-  m = - \frac{A}{B}.
-  $$
+- To determine the value of $b$ ($y$ intercept), plug in $x = 0$ and determine the resulting value of $b$. 
+	- Hence, for point-slope form, this would be $b = -mh+k$ and, for standard form, this would be $b = \frac{C}{B}.$
+- To determine the slope $m$ from standard form, solve for $y$ and simplify into slope-intercept form. 
+	- The general result is $m = - \frac{A}{B}.$
 - To convert into point-slope form, identify the slope $m$ and pick any point $(h,k)$ on your line.
 - To convert into standard form, take an equation of your line and put all $x$ and $y$ terms on the same side of the equation. Put all non-$x$ and non-$y$ terms on the other side of the equation. Then, simplify completely. 
 ## Additional Note
-- To determine the $x$ intercept, plug in $y = 0$ and determine the resulting value of $x$. Hence, for slope-intercept form, this would be
-  $$
-  x = -\frac{b}{m},
-  $$
-  for point-slope form, this would be
-  $$
-  x = - \frac{k}{m} + h,
-  $$
-  and for standard form, this would be
-  $$
-   x= \frac{C}{A}.
-  $$
+- To determine the $x$ intercept, plug in $y = 0$ and determine the resulting value of $x$. 
+	- Hence, for slope-intercept form, this would be $x = -\frac{b}{m},$ for point-slope form, this would be $x = - \frac{k}{m} + h,$ and for standard form, this would be $x= \frac{C}{A}.$
 
 # Equation of a Circle
 More information: [[Circles]]
@@ -165,31 +154,13 @@ There are three main forms of equations of parabolas that are useful to be famil
 
 ## Conversion Shortcuts
 - The value of $a$ is the same in all three forms.
-- The value of $c$ ($y$ intercept) can be found from any form by plugging in $x = 0$ and determining the value of $y$. Hence, for vertex form, this would look like
-  $$
-  c = ah^2 + k
-  $$
-  and for factored form this would look like
-  $$
-  c = ax_1x_2.
-  $$
+- The value of $c$ ($y$ intercept) can be found from any form by plugging in $x = 0$ and determining the value of $y$. 
+	- Hence, for vertex form, this would look like $c = ah^2 + k$ and for factored form this would look like $c = ax_1x_2.$
 - The values of $x_1$ and $x_2$ can be determined from standard form by means of the [[#Quadratic Formula]]. These values can also be determined by identifying the $x$ intercepts of the graph when the function is graphable. Often, though, factored form can be obtained more quickly and reliably by factoring. 
-- The value of $h$ can be determined from standard form via 
-  $$
-  h = - \frac{b}{2a}.
-  $$
-- The value of $h$ can be determined from factored form via
-  $$
-  h = \left( \begin{matrix} \text{average of} \\ x \text{ intercepts} \end{matrix} \right) = \frac{x_1 + x_2}{2}.
-  $$
-- The value of $k$ can be determined from the value of $h$ by determining the $y$ value that results from plugging in $x = h$. Hence, for standard form, this would look like
-  $$
-  k = ah^2 + bh + c
-  $$
-  and for factored form this would look like
-  $$
-  k = a(h-x_1)(h-x_2).
-  $$
+- The value of $h$ can be determined from standard form via $h = - \frac{b}{2a}.$
+- The value of $h$ can be determined from factored form via computing the average of the $x$ intercepts: $h = \frac{x_1 + x_2}{2}.$
+- The value of $k$ can be determined from the value of $h$ by determining the $y$ value that results from plugging in $x = h$. 
+	- Hence, for standard form, this would look like $k = ah^2 + bh + c$ and for factored form this would look like $k = a(h-x_1)(h-x_2).$
 - The values of $h$ and $k$ can also be determined by identifying the vertex (max/min point) of the graph when the function is graphable. The coordinates of the vertex point are $(h,k)$.
 - Standard form can easily be determined from vertex form and factored form by carrying out distribution and simplification.
 # Simple Exponential Growth/Decay & Compound Interest 
