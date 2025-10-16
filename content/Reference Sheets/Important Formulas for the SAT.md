@@ -88,14 +88,7 @@ There are three main forms of equations of lines that are useful to be familiar 
 - The line passes through the point $(h,k)$, which may be located anywhere in the $x$-$y$ plane.
 
 ## Conversion Shortcuts
-- To determine the value of $b$ ($y$ intercept), plug in $x = 0$ and determine the resulting value of . Hence, for point-slope form, this would be
-  $$
-  b = -mh+k
-  $$
-  and, for standard form, this would be
-  $$
-  b = \frac{C}{B}
-  $$
+- **To determine the value of $b$ ($y$ intercept), plug in $x = 0$ and determine the resulting value of $b$**. Hence, for point-slope form, this would be $b = -mh+k$ and, for standard form, this would be $b = \frac{C}{B}.$
 - To determine the slope $m$ from standard form, solve for $y$ and simplify into slope-intercept form. The result is 
   $$
   m = - \frac{A}{B}.
