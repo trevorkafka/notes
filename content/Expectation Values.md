@@ -2,6 +2,7 @@
 tags:
   - probability
   - algebra-2
+  - ACT
 aliases:
   - "647108"
 ---

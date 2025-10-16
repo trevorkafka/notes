@@ -3,6 +3,8 @@ tags:
   - algebra-1
   - algebra-2
   - precalc
+  - ACT
+  - SAT
 aliases:
   - "894477"
 ---

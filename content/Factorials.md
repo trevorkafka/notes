@@ -2,6 +2,7 @@
 tags:
   - "#math-all"
   - "#probability"
+  - ACT
 aliases:
   - "407954"
 ---

@@ -1,6 +1,8 @@
 ---
 tags:
   - algebra-1
+  - ACT
+  - SAT
 aliases:
   - "810689"
 ---

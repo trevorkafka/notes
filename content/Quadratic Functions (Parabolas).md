@@ -4,6 +4,8 @@ aliases:
 tags:
   - algebra-1
   - algebra-2
+  - SAT
+  - ACT
 ---
 
 # The Three Forms of Quadratic Functions

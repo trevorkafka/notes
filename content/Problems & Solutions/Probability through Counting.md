@@ -3,6 +3,7 @@ tags:
   - probability
   - problem-solving
   - math-all
+  - ACT
 aliases:
   - "117672"
 ---

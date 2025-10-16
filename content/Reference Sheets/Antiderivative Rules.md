@@ -4,6 +4,7 @@ aliases:
 tags:
   - reference-sheets
   - calculus
+  - AP
 ---
 See also [[Derivative Rules]].
 # Basic Functions

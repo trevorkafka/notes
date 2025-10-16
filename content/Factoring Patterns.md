@@ -3,6 +3,8 @@ tags:
   - math-all
   - algebra-1
   - reference-sheets
+  - SAT
+  - ACT
 aliases:
   - "276138"
 ---

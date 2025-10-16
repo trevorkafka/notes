@@ -2,6 +2,8 @@
 tags:
   - linear-algebra
   - precalc
+  - ACT
+  - rare
 aliases:
   - "771931"
 ---
