@@ -103,8 +103,8 @@ Problems are taken from *Calculus 10th ed.* by Larson, Section 7.5 (Work)
 > Each slice needs to be lifted up by a height of $6-y$ in order to be poured over the top edge, which corresponds to a work of $\Delta F(y) (6 - y)$. Summing up these works for various slices at $y$ coordinates $y_i$ from $y = 0\ \text{ft}$ to $y = 6\ \text{ft}$ allows us to approximate the total work needed.
 > $$
 > \begin{gather*}
-> W \approx \sum \Delta F(y_i) (6 - y) \\
-> W \approx \sum 62.4 \cdot \frac{4\pi y^2}{9} \Delta y \cdot (6-y)
+> W \approx \sum \Delta F(y_i) (6 - y_i) \\
+> W \approx \sum 62.4 \cdot \frac{4\pi y_i^2}{9} \Delta y \cdot (6-y_i)
 > \end{gather*}
 > $$
 > Taking the limit as $\Delta y \rightarrow 0$ turns this into an integral and also yields the exact value for $W.$
@@ -117,3 +117,4 @@ Problems are taken from *Calculus 10th ed.* by Larson, Section 7.5 (Work)
 > W = \frac{14976\pi}{5} \approx \boxed{9409.698\ \text{ft-lb}}
 > \end{gather*}
 > $$
+

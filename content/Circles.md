@@ -3,6 +3,7 @@ tags:
   - circles
   - physics-all
   - math-all
+  - SAT
 aliases:
   - "782636"
 ---
@@ -51,4 +52,54 @@ The equation of a circle of radius $r$ and center $(h,k)$ in the $xy$-plane is g
 
 A sketch of the resulting circular graph is provided below.
 
-<span class="invert">![[attachments/Drawboard-PDF-Annotation-Copy 9.png]]<span class="invert">
+<span class="invert">![[attachments/Drawboard-PDF-Annotation-Copy 9.png]]</span>
+
+## Problems
+
+> [!question] Problem 1
+> Write the equation of the circle which has a diameter with endpoints at $(1,2)$ and $(-2,8)$.
+
+> [!check]- Solution 1
+> The diameter $d$ of the circle is given by the [[Important Formulas for the SAT#Distance between two coordinate points|distance]] between the two given points.
+> $$
+> d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2} = \sqrt{(1 - (-2))^2 + (2 - 8)^2} = \sqrt{45}
+> $$
+> The radius is half the length of the diameter.
+> $$
+> r = \frac{d}{2} = \frac{\sqrt{45}}{2}
+> $$
+> The center $(h,k)$ of the circle is located at the [[Important Formulas for the SAT#Midpoint of two coordinate points|midpoint]] of the two given points.
+> $$
+> (h,k) = \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right) = \left( \frac{1 + (-2)}{2}, \frac{2 + 8}{2} \right) = \left( -\frac{1}{2}, 5 \right)
+> $$
+> Plug this information into the general equation of the circle.
+> $$
+> \begin{gather*}
+> (x - h)^2 + (y - k)^2 = r^2 \\
+> \left( x - \left( - \frac{1}{2} \right) \right)^2 + (y - 5)^2 = \left( \frac{\sqrt{45}}{2} \right)^2 \\
+> \boxed{\left(x + \frac{1}{2} \right)^2 + (y - 5)^2 = \frac{45}{4}}
+> \end{gather*}
+> $$
+
+> [!question] Problem 2
+> Determine the radius and center of the circle given by $x^2 - 2x + y^2 + 4y = 0.$
+
+> [!check]- Solution 2
+> Adding $\color{red} 5$ to both sides allow us to factor into standard circle equation form.
+> $$
+> \begin{gather*}
+> x^2 - 2x\ {\color{red} +\ 1} + y^2 + 4y\ {\color{red} +\ 4} = {\color{red} 5} \\
+> (x - 1)^2 + (y + 2)^2 = 5
+> \end{gather*}
+> $$
+> Hence, the center of the circle is located at $\boxed{(1, -2)}$ and the radius is $\boxed{\sqrt 5}$.
+
+> [!question] Problem 3
+> Write down the equation of the circle with area $18 \pi$ and that lies tangent to the positive $x$ and $y$ axes (in other words, the circle overlaps the positive $x$ and $y$ axes each at only one point).
+
+> [!check]- Solution 3
+> According to the area formula for a circle $A = \pi r^2,$ we have that $r^2 = 18,$ and so $r = \sqrt{18}.$ The $x$ and $y$ coordinates of the circle must also be $\sqrt{18}$ in order for the circle to lie tangent to the positive $x$ and $y$ axes.
+> $$
+> \boxed{(x - \sqrt{18})^2 + (y - \sqrt{18})^2 = 18}
+> $$
+> <span class="invert">![[Pasted image 20251019212049.png]]</span>
