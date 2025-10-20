@@ -217,13 +217,13 @@ For example, if we say "$A$ is $40\%$ smaller than $B$," we mean that $A = (1 - 
 > $$
 > \begin{cases}
 > \frac{10}{9}x = s - x + z \\
-> s - x = \frac{7}{10} x + \frac{7}{10} z)
+> s - x = \frac{7}{10} x + \frac{7}{10} z
 > \end{cases}
 > $$
 > $$
 > \begin{cases}
 > \frac{19}{9}x = s + z \\
-> s - x = \frac{7}{10} x + \frac{7}{10} z)
+> s - x = \frac{7}{10} x + \frac{7}{10} z
 > \end{cases}
 > $$
 > $$
