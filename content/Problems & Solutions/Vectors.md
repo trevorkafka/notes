@@ -167,3 +167,57 @@ Problems titled "Giancoli" are sourced from *Physics: Principles with Applicatio
 > <span class="invert">![[Drawboard-PDF-Annotation-Copy 6 1.png]]</span>
 > 
 > (c) Subtracting $V_1$ from both sides of $V_1 + V_2 = V_1 - V_2$ gives $V_2 = - V_2$, which hence implies $V_2 = 0$. This therefore means that $\vec V_2$ must have zero length (the magnitude of $\vec V_2$ must be zero).
+
+>[!question] Problem
+>You are flying a plane and want to go from City A to City B. City A is located northeast of City B and are $200\ \text{mi}$ apart. Your plane has an engine that can provide thrust for a speed of $100 \frac{\text{mi}}{\text{hr}}$. There is wind oriented south with a speed of $20 \frac{\text{mi}}{\text{hr}}$.
+>
+>(a) in which direction do you need to aim the plane?
+>
+>(b) how long does it take you to get to city B?
+
+> [!check]- Solution
+> In this relative velocity problem, the three objects of concern are the plane, the air, and the ground.
+> 
+> - In order to go from City A to City B, one needs to travel southwest since City A is northeast of city B. Since the cities are located on the ground, this indicates to us the direction of the velocity of the plane relative to the ground $\vec v_{pg}$ is **southwest**.
+> - We are told that the wind is travelling at $20\ \frac{\text{mi}}{\text{hr}}$ in the **southern** direction, which can be interpreted as the velocity of the air relative to the ground $\vec v_{ag}.$
+> - We are told that the engines of the plane can provide the plane with a speed of $100\ \frac{\text{mi}}{\text{hr}}$ relative to the air.
+> 
+> Let's summarize the three velocities and the information we know about them. Some information is unknown, which is kept blank in the table.
+> 
+> | Velocity of...       | Symbol        | Magnitude                          | Direction |
+> | -------------------- | ------------- | ---------------------------------- | --------- |
+> | plane rel. to ground | $\vec v_{pg}$ |                                    | southwest |
+> | air rel. to ground   | $\vec v_{ag}$ | $20\ \frac{\text{mi}}{\text{hr}}$  | south     |
+> | plane rel. to air    | $\vec v_{pa}$ | $100\ \frac{\text{mi}}{\text{hr}}$ |           |
+> 
+> These velocities will add as follows.
+> 
+> $$
+> \vec v_{pa} + \vec v_{ag} = \vec v_{pg}
+> $$
+> The information in the table can be arranged in a tip-to-tail vector addition diagram as shown below.
+> 
+> <span class="invert">![[Drawboard-PDF-Annotation-Copy 15.png]]</span>
+> 
+> Use the law of sines to compute the angle $\theta$ and thus $\phi$.
+> $$
+> \begin{gather*}
+> \frac{100}{\sin 45^\circ} = \frac{20}{\sin \theta} \\[0.5em]
+> \theta = \arcsin \left( \frac{20 \sin 45^\circ}{100} \right) = 8.130102354\ldots^\circ \\[0.5em]
+> \phi = 45^\circ - \theta \approx 39^\circ
+> \end{gather*}
+> $$
+> Hence, the direction of $\vec v_{pa}$ is approximately $\boxed{39^\circ\ \text{south of west (a)}},$ which is the direction that the plane needs to be aimed. 
+> 
+> The magnitude of $\vec v_{pg}$ can then be found through the law of sines.
+> $$
+> \begin{gather*}
+> \frac{|\vec v_{pg}|}{\sin(135^\circ - \theta)} = \frac{100}{\sin 45^\circ} \\[0.5em]
+> |\vec v_{pg}| = \frac{100 \sin(135^\circ - \theta)}{\sin 45^\circ} = 113.137085\ \frac{\text{mi}}{\text{hr}}
+> \end{gather*}
+> $$
+> Since the two cities are $200\ \text{mi}$ apart, the amount of time required is
+> $$
+> \text{time} = \frac{200\ \text{mi}}{|\vec v_{pg}|} = 1.767\ldots \approx \boxed{ 1\ \text{hr}\ 46\ \text{min (b)}. }
+> $$
+> 
