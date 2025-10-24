@@ -204,10 +204,10 @@ Problems titled "Giancoli" are sourced from *Physics: Principles with Applicatio
 > \begin{gather*}
 > \frac{100}{\sin 45^\circ} = \frac{20}{\sin \theta} \\[0.5em]
 > \theta = \arcsin \left( \frac{20 \sin 45^\circ}{100} \right) = 8.130102354\ldots^\circ \\[0.5em]
-> \phi = 45^\circ - \theta \approx 39^\circ
+> \phi = 45^\circ - \theta \approx 37^\circ
 > \end{gather*}
 > $$
-> Hence, the direction of $\vec v_{pa}$ is approximately $\boxed{39^\circ\ \text{south of west (a)}},$ which is the direction that the plane needs to be aimed. 
+> Hence, the direction of $\vec v_{pa}$ is approximately $\boxed{37^\circ\ \text{south of west (a)}},$ which is the direction that the plane needs to be aimed. 
 > 
 > The magnitude of $\vec v_{pg}$ can then be found through the law of sines.
 > $$
