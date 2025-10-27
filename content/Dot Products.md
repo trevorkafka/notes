@@ -70,7 +70,39 @@ The dot product can also be *very conveniently* computed in terms of the two-dim
 > \vec{\mathbf a} \cdot \vec{\mathbf b} = a_x b_x + a_y b_y
 > $$
 
-This can be proven in two-dimensions using the [[Trigonometric Identities|cosine of a difference formula]]. A more detailed explanation of this will be added to this article at a future point.
+> [!question]- Why?
+> Let $\vec{\mathbf a} = \langle a_x, a_y \rangle$ and $\vec{\mathbf b} = \langle b_x, b_y \rangle$ be vectors with angles $\theta_a$ and $\theta_b$ defined with respect to the $+x$ axis in the conventional manner as shown in the diagram below.
+> 
+> <span class="invert">![[Drawboard-PDF-Annotation-Copy 16.png]]</span>
+> 
+> Note that from this we have the traditional formulas for the components of  $\vec{\mathbf a}$ and $\vec{\mathbf b}.$
+> 
+> $$
+> \begin{cases}
+> a_x = a \cos \theta_a \\ 
+> a_y = a \sin \theta_a
+> \end{cases}
+> \hspace{0.5cm}
+> \text{and}
+> \hspace{0.5cm}
+> \begin{cases}
+> b_x = b \cos \theta_b \\ 
+> b_y = b \sin \theta_b
+> \end{cases}
+> $$
+> 
+> Based on the picture, we can see that the angle between the vectors $\theta$ is related to $\theta_a$ and $\theta_b$ through $\theta = \theta_b - \theta_a.$ This allows us to rewrite $ab \cos \theta$ in terms of the components of $\vec{\mathbf a}$ and $\vec{\mathbf b}$ by means of the [[Trigonometric Identities|cosine of a difference formula]] (see step marked $\star$).
+> 
+> $$
+> \begin{align*}
+> \vec{\mathbf a} \cdot \vec{\mathbf b} &= ab \cos \theta \\
+> &= ab \cos (\theta_a - \theta_b) \\
+> &= ab (\cos \theta_a \cos \theta_b + \sin \theta_a \sin \theta_b) & \star \\
+> &= \underbrace{a \cos \theta_a}_{a_x}\ \underbrace{b \cos \theta_b}_{b_x} + \underbrace{a \sin \theta_a}_{a_y}\ \underbrace{b \sin \theta_b}_{b_x} \\
+> &= a_x b_x + a_y b_y\ \checkmark
+> \end{align*}
+> $$
+> 
 
 ## Practice Problems
 
@@ -202,7 +234,7 @@ The dot product can be computed in terms of the three-dimensional components of 
 > \vec{\mathbf a} \cdot \vec{\mathbf b} = a_x b_x + a_y b_y + a_z b_z
 > $$
 
-Notice how elegantly this extends the two-dimensional formula into three dimensions. One of the big reasons why dot products have been established as their own object is due to the simplicity that is associated with their computation despite having nontrivial ties to the vectors from which they are computed from.
+Notice how elegantly this extends the two-dimensional formula into three dimensions. One of the big reasons why dot products have been established as their own object is due to the simplicity that is associated with their computation despite having nontrivial tie to the original vectors still given by $\vec{\mathbf a} \cdot \vec{\mathbf b} = ab \cos \theta.$
 
 ## Practice Problem
 
@@ -300,11 +332,30 @@ This formula works for any two vectors  $\vec{\mathbf a}$ and $\vec{\mathbf b}$ 
 
 ## Practice Problem
 
->[!question] Problem
->Find the angle between $\vec{\mathbf a} = \langle 1, 2 \rangle$ and $\vec{\mathbf b} = \langle 3, 4 \rangle$
+>[!question] Problem 1
+>Find the angle between the 2D vectors $\vec{\mathbf a} = \langle 1, 2 \rangle$ and $\vec{\mathbf b} = \langle 3, 4 \rangle.$
 
->[!check]- Solution
+>[!check]- Solution 1
 >The angle can be found by means of the given formula and a calculator.
 >$$
->\theta = \arccos \left( \frac{\vec{\mathbf a} \cdot \vec{\mathbf b} }{ab} \right) = \arccos \left( \frac{a_x b_x + a_y b_y}{ \sqrt{a_x^2 + a_y^2} \sqrt{b_x^2 + b_y^2}} \right) = \arccos \left( \frac{1 \cdot 3 + 2 \cdot 4}{\sqrt{1^2 + 2^2} \sqrt{3^2 + 4^2}} \right) \approx \boxed{10.3^\circ}
+>\begin{align*}
+>\theta &= \arccos \left( \frac{\vec{\mathbf a} \cdot \vec{\mathbf b} }{ab} \right) \\
+>&= \arccos \left( \frac{a_x b_x + a_y b_y}{ \sqrt{a_x^2 + a_y^2} \sqrt{b_x^2 + b_y^2}} \right) \\
+>&= \arccos \left( \frac{1 \cdot 3 + 2 \cdot 4}{\sqrt{1^2 + 2^2} \sqrt{3^2 + 4^2}} \right) \\
+>&\approx \boxed{10.3^\circ}
+>\end{align*}
+>$$
+
+> [!question] Problem 2
+> Find the angle between the 3D vectors $\vec{\mathbf a} = \langle 1, 2, 3 \rangle$ and $\vec{\mathbf b} = \langle 4, 5, 6 \rangle.$
+
+>[!check]- Solution 2
+>The angle can be found by means of the given formula and a calculator.
+>$$
+>\begin{align*}
+>\theta &= \arccos \left( \frac{\vec{\mathbf a} \cdot \vec{\mathbf b} }{ab} \right) \\
+>&= \arccos \left( \frac{a_x b_x + a_y b_y + a_z b_z}{ \sqrt{a_x^2 + a_y^2 + a_z^2} \sqrt{b_x^2 + b_y^2 + b_z^2}} \right) \\
+>&= \arccos \left( \frac{1 \cdot 4 + 2 \cdot 5 + 3 \cdot 6}{\sqrt{1^2 + 2^2 + 3^2} \sqrt{4^2 + 5^2 + 6^2}} \right) \\
+>&\approx \boxed{12.9^\circ}
+>\end{align*}
 >$$
