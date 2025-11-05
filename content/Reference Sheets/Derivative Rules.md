@@ -6,6 +6,8 @@ tags:
   - calculus
   - AP
 ---
+[Permalink](https://trevorkafka.github.io/notes/987119)
+
 See also [[Hyperbolic Identities]].
 # Basic Functions
 Let $a$ and $n$ be an arbitrary constants.

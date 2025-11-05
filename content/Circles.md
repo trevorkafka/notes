@@ -60,7 +60,7 @@ A sketch of the resulting circular graph is provided below.
 > Write the equation of the circle which has a diameter with endpoints at $(1,2)$ and $(-2,8)$.
 
 > [!check]- Solution 1
-> The diameter $d$ of the circle is given by the [[Important Formulas for the SAT#Distance between two coordinate points|distance]] between the two given points.
+> The diameter $d$ of the circle is given by the [[SAT Important Formulas#Distance between two coordinate points|distance]] between the two given points.
 > $$
 > d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2} = \sqrt{(1 - (-2))^2 + (2 - 8)^2} = \sqrt{45}
 > $$
@@ -68,7 +68,7 @@ A sketch of the resulting circular graph is provided below.
 > $$
 > r = \frac{d}{2} = \frac{\sqrt{45}}{2}
 > $$
-> The center $(h,k)$ of the circle is located at the [[Important Formulas for the SAT#Midpoint of two coordinate points|midpoint]] of the two given points.
+> The center $(h,k)$ of the circle is located at the [[SAT Important Formulas#Midpoint of two coordinate points|midpoint]] of the two given points.
 > $$
 > (h,k) = \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right) = \left( \frac{1 + (-2)}{2}, \frac{2 + 8}{2} \right) = \left( -\frac{1}{2}, 5 \right)
 > $$

@@ -6,6 +6,8 @@ tags:
   - calculus
   - AP
 ---
+[Permalink](https://trevorkafka.github.io/notes/609659)
+
 See also [[Derivative Rules]].
 # Basic Functions
 Let $a$ and $n$ be an arbitrary constants.

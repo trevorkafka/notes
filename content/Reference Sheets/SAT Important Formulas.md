@@ -5,6 +5,8 @@ tags:
   - SAT
   - reference-sheets
 ---
+[Permalink](https://trevorkafka.github.io/notes/549490)
+
 The SAT includes a reference sheet of useful formulas to help you answer questions on the exam. However, there are additional formulas that should also be known by student seeking the highest possible scores. 
 
 >[!note] What's Included Already?
@@ -29,6 +31,9 @@ $$
 >d = \sqrt{(x_2 - x_1)^2+(y_2 - y_1)^2}
 >\end{gather*}
 >$$
+
+> [!example] Distance with Desmos
+> You can also compute the distance between two points by using the `distance` function. For example, to find the distance between the points $(1,2)$ and $(3,4)$, type into Desmos `distance((1,2),(3,4))`.
 
 # Slope between two coordinate points 
 
@@ -63,6 +68,10 @@ $$
 $$
 >[!caution]
 >Students often accidentally write $+$ in these formulas as $-$. Remembering that we are dealing with average values when computing a midpoint can be helpful towards not making this mistake.
+
+> [!example] Midpoint with Desmos
+> You can also compute the distance between two points by using the `midpoint` function. For example, to find the distance between the points $(1,2)$ and $(3,4)$, type into Desmos `distance((1,2),(3,4))`.
+
 # Slopes of Perpendicular Lines
 If two lines with slopes $m_1$ and $m_2$ are perpendicular, then the slopes are negative reciprocals of each other
 $$
@@ -82,6 +91,7 @@ There are three main forms of equations of lines that are useful to be familiar 
 | Slope-Intercept | $y = mx + b$     | Yes     |
 | Point-Slope     | $y = m(x-h) + k$ | No      |
 | Standard        | $Ax + By = C$    | No      |
+For forms whose "Unique?" column lists "No," there are multiple different ways to write the equation of the same line.
 ## How to Interpret Each Constant
 - $m$ is the slope of the line and is the same for slope-intercept form and point-slope form
 - $(0,b)$ is the $y$-intercept of the line
@@ -175,6 +185,24 @@ for positive values of $b$ only. The constants $a$ and $b$ have important interp
 - The $y$-intercept of the function is located at $(0,a)$.
 - If $0 < b < 1$, then this function will describe **exponential decay**.
 - If $b > 1$, then this function will describe **exponential growth**.
+
+# Percentage Increase & Decrease
+More information: [[Percentage Increase & Decrease]]
+
+Use ratios of values to determine what percentage larger or smaller one value is compared to another. This is best seen through examples.
+
+> [!example] Example 1
+> **Question:** What percentage larger is $15$ than $12$?
+> 
+> **Solution:** $\frac{15}{12} = 1.25 = 125\% = 100\% + 25\%$, so $15$ is $\boxed{25\%}$ larger than $12$.
+
+> [!example] Example 2
+> **Question:** What percentage smaller is $12$ than $15$?
+> 
+> **Solution:** $\frac{12}{15} = 0.8 = 80\% = 100\% - 20\%$, so $12$ is $\boxed{20\%}$ smaller than $15.$
+
+
+This is explained in much further detail on my page  [[Percentage Increase & Decrease]]. These sorts of comparisons are **very common** on the SAT and also are unfortunately much trickier than they sem at first glance.
 # Geometric Definitions of Sine, Cosine, and Tangent (SOH CAH TOA)
 For any right triangle, the longest side of the triangle is always called the **hypotenuse.** We often refer to the two remaining sides of the triangle relative to a chosen *acute* angle $\theta$ within the triangle. The side adjacent to the angle $\theta$ is often called the **adjacent leg** and the side that is neither the hypotenuse nor the adjacent leg is called the **opposite leg**. This is illustrated in the diagram below.  
 

@@ -10,6 +10,8 @@ aliases:
 draft: true
 title:
 ---
+[Permalink](https://trevorkafka.github.io/notes/557049)
+
 Access the Desmos graphing calculator for free [here](http://www.desmos.com/calculator).
 # Inputting Mathematical Symbols
 There are a few different sorts of mathematical symbols that are really useful to be able to type into Desmos quickly using some simple keyboard shortcuts.
@@ -99,7 +101,7 @@ or on separate lines enter the following.
 When plotting the pieces of your piecewise function on separate lines, the two pieces will be treated as separate functions and can have independent styles set to each (color, thickness, etc.).
 
 >[!caution]
->Desmos does *not* plot closed and open circles when plotting piecewise funciton as one would use when sketching on paper.
+>Desmos does *not* plot closed and open circles when plotting piecewise function as one would use when sketching on paper. To determine the value of a graphed function at switchover points between pieces, refer to the original function's equation or have Desmos create a [[Desmos Graphing Calculator Reference#Plotting a Table of Values|table of values]].
 # Plotting a Table of Values
 
 ## Finding the Equation of a Line Connecting Two Points
@@ -118,3 +120,8 @@ Highlighted equations from Desmos can also be copy-pasted using `ctrl+C` and `ct
 Entire lines from the input panel can be duplicated within the input panel by opening the settings menu and clicking the copy button.
 
 ![[duplicating.gif]]
+
+# Miscellaneous 
+## Distance between two points
+
+## Midpoint 
