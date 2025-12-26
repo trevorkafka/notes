@@ -37,7 +37,7 @@ $$
 $$
 This is a well-known integral.
 $$
-\text{arccosh}\ u  + C
+\text{arccosh} u  + C
 $$
 Switch to the logarithmic version of $\text{arccosh}$.
 $$
