@@ -1,3 +1,54 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+
+table {
+	margin: auto !important;
+}
+
+img {
+	display: block; 
+	margin: auto; 
+	border-radius: 20px
+}
+
+@media all and ($mobile) {
+	.page-title {
+		font-size: 1.25em;
+	}
+}
+
+html[saved-theme="dark"] .invert img {
+	filter: invert(92%);
+}
+
+li .katex-html {
+	margin: 16px 0px;
+}
+
+/*html[saved-theme="light"] hr {
+	background-color: black;
+}
+
+html[saved-theme="dark"] hr {
+	background-color: white;
+}*/
+
+html[saved-theme="light"] section.footnotes {
+	border-top-color: black !important;
+}
+
+html[saved-theme="dark"] section.footnotes {
+	border-top-color: white !important;
+}
+
+p td {
+	font-family: Arial, sans-serif;
+}
+
+
+.math {
+	color: inherit !important;
+}
