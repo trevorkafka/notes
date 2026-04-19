@@ -97,3 +97,14 @@ For any function $f$ and arbitrary constants $a$, $b$, and $c$, we have
 $$
 \int_a^b f(x)\ dx + \int_b^c f(x)\ dx = \int_a^c f(x)\ dx.
 $$
+# Fundamental Theorem of Calculus
+## Version 1
+If $F'(x) = f(x)$ and if $a$ and $b$ are arbitrary constants, then
+$$
+\int_a^b f(x)\ dx = F(b) - F(a).
+$$
+## Version 2
+Let $f(x)$ be a function and $a$ be an arbitrary constant.
+$$
+\frac{d}{dx} \int_a^x f(t)\ dt = f(x)
+$$
