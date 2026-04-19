@@ -6,6 +6,8 @@ tags:
   - AP
   - calculus
 ---
+[Permalink](https://trevorkafka.github.io/notes/141079)
+
 >[!note] Definition of Work
 >The work $W$ done by a *constant* force $\vec F$ acting on an object as it undergoes displacement $\Delta \vec x$ is defined by
 >$$

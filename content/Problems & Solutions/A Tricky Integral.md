@@ -4,6 +4,8 @@ aliases:
 tags:
   - calculus
 ---
+[Permalink](https://trevorkafka.github.io/notes/741070)
+
 $$
 \int \frac{3x+1}{x(x^2+4)}\ dx 
 $$

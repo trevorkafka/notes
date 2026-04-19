@@ -7,6 +7,8 @@ tags:
 aliases:
   - "377564"
 ---
+[Permalink](https://trevorkafka.github.io/notes/377564)
+
 Problems titled "Giancoli" are sourced from *Physics: Principles with Applications* by Giancoli. A problem titled "Giancoli 3-P9," for example, refers to problem 9 from chapter 3 (P refers to *problem*, Q refers to *question*).
 
 >[!question] Giancoli 3-P9

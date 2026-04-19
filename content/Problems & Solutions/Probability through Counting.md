@@ -7,7 +7,7 @@ tags:
 aliases:
   - "117672"
 ---
-
+[Permalink](https://trevorkafka.github.io/notes/117672)
 
 **Lots of problems in probability are really problems in creative counting.** This is best seen through examples, so this page contains a variety of examples for you to browse. 
 

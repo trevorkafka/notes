@@ -93,3 +93,7 @@ If $f$ is an odd function and $a$ is an arbitrary constant, then
 $$
 \int_{-a}^a f(x)\ dx = 0.
 $$
+For any function $f$ and arbitrary constants $a$, $b$, and $c$, we have
+$$
+\int_a^b f(x)\ dx + \int_b^c f(x)\ dx = \int_a^c f(x)\ dx.
+$$
