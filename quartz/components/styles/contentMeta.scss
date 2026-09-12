@@ -12,3 +12,31 @@
     }
   }
 }
+
+// Custom addition: copy button beside the permalink
+.permalink-link {
+  white-space: nowrap;
+}
+
+.permalink-copy {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 0.35em;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--gray);
+  cursor: pointer;
+
+  svg {
+    width: 0.95em;
+    height: 0.95em;
+    fill: currentColor;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--secondary);
+  }
+}

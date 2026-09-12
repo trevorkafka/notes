@@ -15,6 +15,41 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
+// Explorer options (custom addition): subject folders open by default and listed in
+// course order rather than alphabetically; notes inside each folder stay alphabetical.
+// Note: sortFn is serialized with toString() and evaluated in the browser, so it must be
+// self-contained: no outer variables and no inner named functions (esbuild wraps those in
+// a __name() helper that does not exist on the page).
+const explorerOptions: Parameters<typeof Component.Explorer>[0] = {
+  folderDefaultState: "open",
+  sortFn: (a, b) => {
+    const folderOrder = [
+      "Algebra",
+      "Geometry & Trigonometry",
+      "Precalculus",
+      "Calculus",
+      "Probability & Counting",
+      "Physics",
+      "General Reference",
+    ]
+    if (a.isFolder && b.isFolder) {
+      const ia = folderOrder.indexOf(a.displayName)
+      const ib = folderOrder.indexOf(b.displayName)
+      if (ia !== -1 || ib !== -1) {
+        if (ia === -1) return 1
+        if (ib === -1) return -1
+        return ia - ib
+      }
+    } else if (a.isFolder !== b.isFolder) {
+      return a.isFolder ? -1 : 1
+    }
+    return a.displayName.localeCompare(b.displayName, undefined, {
+      numeric: true,
+      sensitivity: "base",
+    })
+  },
+}
+
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -28,7 +63,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.TableOfContents({ layout: "modern", class: "mobile-only"})), // custom addition
   ],
   left: [
-    Component.PageTitle(),
+    Component.PageTitleWithLink(), // custom addition: site title with main-website link beneath it
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -40,7 +75,7 @@ export const defaultContentPageLayout: PageLayout = {
         // { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer(explorerOptions),
   ],
   right: [
     // Component.Graph(),
@@ -53,7 +88,7 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.PageTitle(),
+    Component.PageTitleWithLink(), // custom addition: site title with main-website link beneath it
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -64,7 +99,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer(explorerOptions),
   ],
   right: [],
 }

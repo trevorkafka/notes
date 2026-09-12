@@ -1,5 +1,6 @@
 ---
 title: Welcome to Trevor's Notes
+modified: 2025-10-09
 ---
 # What is *Trevor's Notes*?
 

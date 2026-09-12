@@ -2,9 +2,12 @@ import { Date, getDate } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
+import { FullSlug, resolveRelative } from "../util/path"
 import { i18n } from "../i18n"
 import { JSX } from "preact"
 import style from "./styles/contentMeta.scss"
+// @ts-ignore
+import script from "./scripts/permalink.inline"
 
 interface ContentMetaOptions {
   /**
@@ -42,6 +45,34 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(<span>{displayedTime}</span>)
       }
 
+      // Permalink derived from the note's six-digit alias (custom addition).
+      // The alias itself is what generates the redirect page, so the URL stays
+      // stable regardless of where the note lives in the content folder.
+      const aliases = fileData.frontmatter?.aliases
+      const permalinkAlias = Array.isArray(aliases)
+        ? aliases.map(String).find((a) => /^\d{6}$/.test(a))
+        : undefined
+      if (permalinkAlias) {
+        const url = cfg.baseUrl
+          ? `https://${cfg.baseUrl}/${permalinkAlias}`
+          : resolveRelative(fileData.slug!, permalinkAlias as FullSlug)
+        segments.push(
+          <span class="permalink">
+            Permalink:{" "}
+            <span class="permalink-link">
+              <a href={url}>{url}</a>
+              <button
+                type="button"
+                class="permalink-copy"
+                aria-label="Copy permalink"
+                title="Copy permalink"
+                data-url={url}
+              ></button>
+            </span>
+          </span>,
+        )
+      }
+
       return (
         <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
           {segments}
@@ -53,6 +84,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   }
 
   ContentMetadata.css = style
+  ContentMetadata.afterDOMLoaded = script
 
   return ContentMetadata
 }) satisfies QuartzComponentConstructor
