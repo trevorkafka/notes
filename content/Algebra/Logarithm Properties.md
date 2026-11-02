@@ -4,7 +4,7 @@ tags:
   - precalc
   - ACT
   - reference-sheets
-draft: true
+draft: false
 aliases:
   - "018200"
 modified: 2025-12-25
@@ -17,7 +17,7 @@ $$
 \log_b x = y \iff b^y = x
 $$
 
->[!note]- 
+>[!note]
 >In words, $\log_b x$ is the exponent you raise $b$ to in order to get $x$. For example, $\log_2 8 = 3$ because $2^3 = 8$. Since $b^y$ is always positive, $\log_b x$ is only defined for $x > 0$.
 
 $$
@@ -29,7 +29,7 @@ $$
 
 where $e \approx 2.71828$. Every property on this page applies to both.
 
->[!note]- 
+>[!note]
 >In algebra and precalculus classes, on the ACT, and on Desmos and TI calculators, $\log x$ with no base written means $\log_{10} x$. Some calculus textbooks and most programming languages use $\log x$ to mean $\ln x$ instead.
 
 # Special Values
@@ -69,7 +69,7 @@ $$
 \end{align*}
 $$
 
->[!note]- 
+>[!note]
 >These rules require the inputs to be positive. For example, $\log (x^2) = 2 \log x$ only holds for $x > 0$, since the left side is defined for every $x \neq 0$ but the right side is not. The version that holds for every $x \neq 0$ is $\log (x^2) = 2 \log |x|$.
 
 # Change-of-Base Formula
