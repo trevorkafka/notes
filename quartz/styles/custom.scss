@@ -56,3 +56,40 @@ p td {
 .math {
 	color: inherit !important;
 }
+
+// colored labels, e.g. <span class="pill pill-blue">Fixed Axis</span>
+.pill {
+	display: inline-block;
+	padding: 0 0.45em;
+	margin: 0.15em 0.1em;
+	border: 1px solid var(--pill-border);
+	border-radius: 0.45em;
+	background-color: var(--pill-bg);
+	color: var(--pill-fg);
+	font-size: 0.85em;
+	line-height: 1.5;
+	white-space: nowrap;
+}
+
+.pill-blue   { --pill-fg: #2b5797; --pill-bg: #e9f0fb; --pill-border: #8eaee0; }
+.pill-red    { --pill-fg: #a3263a; --pill-bg: #fcebee; --pill-border: #e09aa6; }
+.pill-green  { --pill-fg: #2d6e3e; --pill-bg: #eaf6ed; --pill-border: #93c9a1; }
+.pill-orange { --pill-fg: #a04a15; --pill-bg: #fdf0e7; --pill-border: #e6ad88; }
+.pill-purple { --pill-fg: #6a3d99; --pill-bg: #f3edfb; --pill-border: #bea3e0; }
+
+html[saved-theme="dark"] {
+	.pill-blue   { --pill-fg: #a9c6f5; --pill-bg: rgba(90, 140, 230, 0.16); --pill-border: #4f72b0; }
+	.pill-red    { --pill-fg: #f2a7b3; --pill-bg: rgba(230, 90, 110, 0.16); --pill-border: #a5505e; }
+	.pill-green  { --pill-fg: #a3dbb1; --pill-bg: rgba(90, 190, 120, 0.15); --pill-border: #4f8c5e; }
+	.pill-orange { --pill-fg: #f5bf98; --pill-bg: rgba(235, 140, 70, 0.16); --pill-border: #a8693f; }
+	.pill-purple { --pill-fg: #cfb5f2; --pill-bg: rgba(160, 110, 230, 0.17); --pill-border: #7d5cae; }
+}
+
+// small gray follow-up line inside a table cell
+.cell-note {
+	display: block;
+	color: var(--gray);
+	font-size: 0.85em;
+	line-height: 1.4;
+	margin-top: 0.25em;
+}
