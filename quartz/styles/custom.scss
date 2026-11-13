@@ -175,3 +175,12 @@ html[saved-theme="dark"] :is(ul, ol).overflow {
 	padding: 0.2rem 0 0.2rem 0.8em;
 	text-indent: -0.8em;
 }
+
+
+// Horizontal rules inside callouts: the default --lightgray line nearly
+// matches the tinted callout background, so tint the rule with the
+// callout's own color instead.
+.callout hr {
+	margin: 1rem 0;
+	background-color: color-mix(in srgb, var(--color) 45%, transparent);
+}
