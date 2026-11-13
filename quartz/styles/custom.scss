@@ -184,3 +184,11 @@ html[saved-theme="dark"] :is(ul, ol).overflow {
 	margin: 1rem 0;
 	background-color: color-mix(in srgb, var(--color) 45%, transparent);
 }
+
+
+// Equation tags like (2): KaTeX pins the tag to the right edge, but its
+// 2px Safari spacer pokes past the edge, so wide tagged equations got a
+// pointless horizontal scrollbar. Nudge the tag in to absorb it.
+.katex-display > .katex > .katex-html > .tag {
+	right: 2px !important;
+}
