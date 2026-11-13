@@ -89,6 +89,8 @@ To go into detail about this specifically for each trig function, reference the 
 
 # Practice Problems
 
+To drill the inverse trig values of the special angles, try my <a href="https://www.trevorkafka.com/math/unit-circle.html" target="_blank" rel="noopener">Unit Circle Quiz</a> with the mode set to **inverse trig**.
+
 >[!question] Problem 1
 >Evaluate each of the following without a calculator.
 >- $\sin^{-1} \left( \frac{\sqrt 3}{2} \right)$
