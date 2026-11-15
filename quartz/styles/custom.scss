@@ -192,3 +192,34 @@ html[saved-theme="dark"] :is(ul, ol).overflow {
 .katex-display > .katex > .katex-html > .tag {
 	right: 2px !important;
 }
+
+
+// Desktop left sidebar: let the Explorer list run all the way to the bottom of
+// the window (no bottom padding, list fills the remaining height), and keep the
+// Explorer permanently expanded (the "Explorer" heading no longer collapses it).
+@media all and not ($mobile) {
+	.page > #quartz-body .sidebar.left {
+		padding-bottom: 0;
+	}
+
+	.explorer {
+		flex: 1 1 auto;
+
+		&.collapsed {
+			flex: 1 1 auto;
+
+			& .explorer-content {
+				visibility: visible;
+			}
+		}
+
+		button.desktop-explorer {
+			pointer-events: none;
+			cursor: default;
+
+			& .fold {
+				display: none;
+			}
+		}
+	}
+}

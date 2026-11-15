@@ -101,16 +101,16 @@ Here $t_0$ is any time at which the position or velocity is known, most often $t
 
 ## Velocity and Acceleration Together
 
-| Condition | Meaning |
-| --- | --- |
-| $v(t)$ and $a(t)$ have the same sign | particle is speeding up |
-| $v(t)$ and $a(t)$ have opposite signs | particle is slowing down |
-| $v(t)$ changes sign | particle is changing direction† |
-| $a(t) = 0$ | particle has constant velocity\* |
+| Condition                             | Meaning                            |
+| ------------------------------------- | ---------------------------------- |
+| $v(t)$ and $a(t)$ have the same sign  | particle is speeding up            |
+| $v(t)$ and $a(t)$ have opposite signs | particle is slowing down           |
+| $v(t)$ changes sign                   | particle is changing direction*    |
+| $a(t) = 0$                            | particle has constant velocity\*\* |
 
-†$v(t) = 0$ alone isn't enough. For example, if $v(t) = (t - 2)^2$, the particle stops at $t = 2$ but keeps moving right afterward.
+\*$v(t) = 0$ alone isn't enough. For example, if $v(t) = (t - 2)^2$, the particle stops at $t = 2$ but keeps moving right afterward.
 
-\*Including being stationary, i.e. remaining at rest.
+\*\*Including being stationary, i.e. remaining at rest.
 
 > [!tip] Writing justifications
 > Name both values and their signs, not just the conclusion. For example: "The speed is increasing at $t = 4$ because $v(4) > 0$ and $a(4) > 0$, which have the same sign."
@@ -119,7 +119,10 @@ Here $t_0$ is any time at which the position or velocity is known, most often $t
 
 To find the particle's leftmost or rightmost position on $[a, b]$:
 
-1. List the candidate times: $t = a$, $t = b$, and every time $v(t)$ changes sign.
+1. List the candidate times: 
+	1. $t = a$, 
+	2. $t = b$, and 
+	3. every time $v(t)$ changes sign.
 2. Evaluate $x(t)$ at each candidate.
 3. The smallest value is the leftmost position, and the largest value is the rightmost position.
 
@@ -233,7 +236,7 @@ The graphs below show the particle from the example above, with $x(t) = t^3 - 6t
 <polygon points="168.0,214.6 168.0,214.6 171.7,216.1 175.5,217.5 179.2,218.9 182.9,220.3 186.7,221.6 190.4,222.8 194.1,224.0 197.9,225.1 201.6,226.2 205.3,227.2 209.1,228.2 212.8,229.1 216.5,230.0 220.3,230.9 224.0,231.6 227.7,232.4 231.5,233.1 235.2,233.7 238.9,234.3 242.7,234.8 246.4,235.3 250.1,235.7 253.9,236.1 257.6,236.4 261.3,236.7 265.1,236.9 268.8,237.1 272.5,237.2 276.3,237.3 280.0,237.3 283.7,237.3 287.5,237.2 291.2,237.1 294.9,236.9 298.7,236.7 302.4,236.4 306.1,236.1 309.9,235.7 313.6,235.3 317.3,234.8 321.1,234.3 324.8,233.7 328.5,233.1 332.3,232.4 336.0,231.6 339.7,230.9 343.5,230.0 347.2,229.1 350.9,228.2 354.7,227.2 358.4,226.2 362.1,225.1 365.9,224.0 369.6,222.8 373.3,221.6 377.1,220.3 380.8,218.9 384.5,217.5 388.3,216.1 392.0,214.6 392.0,214.6" class="pm-neg"/>
 <polygon points="392.0,214.6 392.0,214.6 395.7,213.1 399.5,211.5 403.2,209.9 406.9,208.2 410.7,206.4 414.4,204.6 418.1,202.8 421.9,200.9 425.6,199.0 429.3,197.0 433.1,194.9 436.8,192.8 440.5,190.7 444.3,188.5 448.0,186.3 451.7,184.0 455.5,181.6 459.2,179.2 462.9,176.8 466.7,174.3 470.4,171.7 474.1,169.1 477.9,166.5 481.6,163.8 485.3,161.1 489.1,158.3 492.8,155.4 496.5,152.5 500.3,149.6 504.0,146.6 507.7,143.5 511.5,140.4 515.2,137.3 518.9,134.1 522.7,130.8 526.4,127.5 530.1,124.2 533.9,120.7 537.6,117.3 541.3,113.8 545.1,110.2 548.8,106.6 552.5,103.0 556.3,99.3 560.0,95.5 563.7,91.7 567.5,87.9 571.2,83.9 574.9,80.0 578.7,76.0 582.4,71.9 586.1,67.8 589.9,63.7 593.6,59.4 597.3,55.2 601.1,50.9 604.8,46.5 608.5,42.1 612.3,37.6 616.0,33.1 616.0,214.6" class="pm-pos"/>
 <text x="89.6" y="202.5" class="pm-area" text-anchor="middle">+4</text>
-<text x="280.0" y="225.2" class="pm-area" text-anchor="middle">−4</text>
+<text x="252.0" y="232.0" class="pm-area" text-anchor="middle">−4</text>
 <text x="543.2" y="176.8" class="pm-area" text-anchor="middle">+20</text>
 <circle cx="168.0" cy="214.6" r="5" class="pm-dot"/>
 <circle cx="392.0" cy="214.6" r="5" class="pm-dot"/>
@@ -251,13 +254,13 @@ The graphs below show the particle from the example above, with $x(t) = t^3 - 6t
 
 - <span class="question-box">The particle moves right from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">0</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">1</span></span></span> and from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">3</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">5</span></span></span>.</span>
 - <span class="question-box">The particle moves left from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">1</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">3</span></span></span>.</span>
-- <span class="question-box">The particle changes direction at $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">1</span></span></span> and $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">3</span></span></span>, where the $x(t)$ graph has a horizontal tangent.</span>
-- <span class="question-box">The particle has a negative acceleration from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">0</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">2</span></span></span>, where the $x(t)$ graph is concave down.</span>
-- <span class="question-box">The particle has a positive acceleration from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">2</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">5</span></span></span>, where the $x(t)$ graph is concave up.</span>
+- <span class="question-box">The particle changes direction at $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">1</span></span></span> and $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">3</span></span></span>.</span>
+- <span class="question-box">The particle has a negative acceleration from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">0</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">2</span></span></span>.</span>
+- <span class="question-box">The particle has a positive acceleration from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">2</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">5</span></span></span>.</span>
 - <span class="question-box">The particle is speeding up from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">1</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">2</span></span></span> and from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">3</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">5</span></span></span>.</span>
 - <span class="question-box">The particle is slowing down from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">0</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">1</span></span></span> and from $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">2</span></span></span> to $t = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">3</span></span></span>.</span>
-- <span class="question-box">The displacement from $t = 0$ to $t = 5$ is the signed area $4 - 4 + 20 = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">20</span></span></span>.</span>
-- <span class="question-box">The total distance from $t = 0$ to $t = 5$ is the total area $4 + 4 + 20 = $ <span class="answer-space"><span class="answer-box"><span class="answer-text">28</span></span></span>.</span>
+- <span class="question-box">The displacement from $t = 0$ to $t = 5$ is <span class="answer-space"><span class="answer-box"><span class="answer-text">20</span></span></span>.</span>
+- <span class="question-box">The total distance from $t = 0$ to $t = 5$ is <span class="answer-space"><span class="answer-box"><span class="answer-text">28</span></span></span>.</span>
 
 # Motion in the Plane (BC Only)
 
