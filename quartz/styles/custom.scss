@@ -223,3 +223,114 @@ html[saved-theme="dark"] :is(ul, ol).overflow {
 		}
 	}
 }
+
+
+// Keep each piece of math inside a table cell on one line, so narrow (phone)
+// layouts wrap the surrounding words instead of breaking a formula mid-way.
+.table-container td .katex {
+	white-space: nowrap;
+}
+
+
+// Phones: tighten table spacing so tables fit the narrow column instead of
+// needing a sideways scroll.
+@media all and ($mobile) {
+	.table-container > table {
+		padding: 0;
+
+		th,
+		td {
+			min-width: 0;
+			padding: 0.2rem 0.5rem;
+		}
+	}
+}
+
+
+// Table row dividers: the default --lightgray line is nearly invisible against
+// the page background, so use a stronger gray, and give rows a little vertical
+// breathing room so tall formulas don't touch the lines.
+.table-container > table {
+	tr {
+		border-bottom: 1px solid color-mix(in srgb, var(--gray) 55%, transparent);
+	}
+
+	td {
+		padding-top: 0.45rem;
+		padding-bottom: 0.45rem;
+	}
+}
+
+// Wide figures that scroll sideways on narrow screens (add class="scroll-figure").
+// On phones they run edge to edge, using the page's side padding for viewing space.
+.scroll-figure {
+  overflow-x: auto;
+}
+@media all and ($mobile) {
+  .scroll-figure {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+
+// Phone header bar (the sticky left sidebar) spans the full screen width, so
+// edge-to-edge content such as .scroll-figure can't show past its sides.
+@media all and ($mobile) {
+  .page > #quartz-body .sidebar.left,
+  .page > #quartz-body .sidebar.left:has(.explorer) {
+    margin-left: -16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 0 2px 8px var(--header-shadow, color-mix(in srgb, var(--dark) 18%, transparent));
+  }
+}
+:root[saved-theme="dark"] {
+  --header-shadow: rgba(0, 0, 0, 0.6);
+}
+
+// Phones: tables drop the outer padding on their first and last columns so
+// two-column math tables fit inside callouts without sideways scrolling.
+@media all and ($mobile) {
+  .table-container td:first-child,
+  .table-container th:first-child {
+    padding-left: 0;
+  }
+  .table-container td:last-child,
+  .table-container th:last-child {
+    padding-right: 0;
+  }
+}
+
+// Narrow phones (~320px): nothing in the header or page meta should force the
+// page wider than the screen.
+@media all and ($mobile) {
+  // Let the search button shrink instead of pushing the header past the edge.
+  .page > #quartz-body .sidebar.left > .flex-component,
+  .page > #quartz-body .sidebar.left > .flex-component > *,
+  .page > #quartz-body .sidebar.left .search {
+    min-width: 0;
+    flex-shrink: 1;
+  }
+  .page > #quartz-body .sidebar.left .search > .search-button {
+    overflow: hidden;
+  }
+  // The long permalink URL may wrap anywhere.
+  .content-meta .permalink-link,
+  .content-meta .permalink-link a {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  html, body {
+    overflow-x: clip;
+  }
+}
+// Very narrow phones: the search button shows just its icon.
+@media (max-width: 359px) {
+  .page > #quartz-body .sidebar.left .search > .search-button {
+    padding-right: 0;
+    & > p {
+      display: none;
+    }
+  }
+}
